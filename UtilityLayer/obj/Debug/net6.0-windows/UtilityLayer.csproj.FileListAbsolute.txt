@@ -1,0 +1,12 @@
+D:\agu\ltql\PayrollManagement\UtilityLayer\bin\Debug\net6.0-windows\UtilityLayer.deps.json
+D:\agu\ltql\PayrollManagement\UtilityLayer\bin\Debug\net6.0-windows\UtilityLayer.dll
+D:\agu\ltql\PayrollManagement\UtilityLayer\bin\Debug\net6.0-windows\ref\UtilityLayer.dll
+D:\agu\ltql\PayrollManagement\UtilityLayer\bin\Debug\net6.0-windows\UtilityLayer.pdb
+D:\agu\ltql\PayrollManagement\UtilityLayer\obj\Debug\net6.0-windows\UtilityLayer.csproj.AssemblyReference.cache
+D:\agu\ltql\PayrollManagement\UtilityLayer\obj\Debug\net6.0-windows\UtilityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\agu\ltql\PayrollManagement\UtilityLayer\obj\Debug\net6.0-windows\UtilityLayer.AssemblyInfoInputs.cache
+D:\agu\ltql\PayrollManagement\UtilityLayer\obj\Debug\net6.0-windows\UtilityLayer.AssemblyInfo.cs
+D:\agu\ltql\PayrollManagement\UtilityLayer\obj\Debug\net6.0-windows\UtilityLayer.csproj.CoreCompileInputs.cache
+D:\agu\ltql\PayrollManagement\UtilityLayer\obj\Debug\net6.0-windows\UtilityLayer.dll
+D:\agu\ltql\PayrollManagement\UtilityLayer\obj\Debug\net6.0-windows\ref\UtilityLayer.dll
+D:\agu\ltql\PayrollManagement\UtilityLayer\obj\Debug\net6.0-windows\UtilityLayer.pdb

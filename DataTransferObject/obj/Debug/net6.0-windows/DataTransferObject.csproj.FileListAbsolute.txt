@@ -1,0 +1,15 @@
+D:\agu\ltql\PayrollManagement\DataTransferObject\bin\Debug\net6.0-windows\DataTransferObject.deps.json
+D:\agu\ltql\PayrollManagement\DataTransferObject\bin\Debug\net6.0-windows\DataTransferObject.dll
+D:\agu\ltql\PayrollManagement\DataTransferObject\bin\Debug\net6.0-windows\ref\DataTransferObject.dll
+D:\agu\ltql\PayrollManagement\DataTransferObject\bin\Debug\net6.0-windows\DataTransferObject.pdb
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\DataTransferObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\DataTransferObject.AssemblyInfoInputs.cache
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\DataTransferObject.AssemblyInfo.cs
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\DataTransferObject.csproj.CoreCompileInputs.cache
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\DataTransferObject.dll
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\ref\DataTransferObject.dll
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\DataTransferObject.pdb
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\DataTransferObject.csproj.AssemblyReference.cache
+D:\agu\ltql\PayrollManagement\DataTransferObject\bin\Debug\net6.0-windows\UtilityLayer.dll
+D:\agu\ltql\PayrollManagement\DataTransferObject\bin\Debug\net6.0-windows\UtilityLayer.pdb
+D:\agu\ltql\PayrollManagement\DataTransferObject\obj\Debug\net6.0-windows\DataTransferObject.csproj.CopyComplete

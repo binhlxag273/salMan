@@ -1,0 +1,17 @@
+D:\agu\ltql\PayrollManagement\DataAccessLayer\bin\Debug\net6.0-windows\DataAccessLayer.deps.json
+D:\agu\ltql\PayrollManagement\DataAccessLayer\bin\Debug\net6.0-windows\DataAccessLayer.dll
+D:\agu\ltql\PayrollManagement\DataAccessLayer\bin\Debug\net6.0-windows\ref\DataAccessLayer.dll
+D:\agu\ltql\PayrollManagement\DataAccessLayer\bin\Debug\net6.0-windows\DataAccessLayer.pdb
+D:\agu\ltql\PayrollManagement\DataAccessLayer\bin\Debug\net6.0-windows\DataTransferObject.dll
+D:\agu\ltql\PayrollManagement\DataAccessLayer\bin\Debug\net6.0-windows\DataTransferObject.pdb
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.csproj.AssemblyReference.cache
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.AssemblyInfoInputs.cache
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.AssemblyInfo.cs
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.csproj.CopyComplete
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.dll
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\ref\DataAccessLayer.dll
+D:\agu\ltql\PayrollManagement\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.pdb
+D:\agu\ltql\PayrollManagement\DataAccessLayer\bin\Debug\net6.0-windows\UtilityLayer.dll
+D:\agu\ltql\PayrollManagement\DataAccessLayer\bin\Debug\net6.0-windows\UtilityLayer.pdb
