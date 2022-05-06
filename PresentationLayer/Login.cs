@@ -41,13 +41,26 @@ namespace PresentationLayer
 
             lblErrorResponse.Text = "";
 
-            KeyValuePair<bool, Account_DTO> result = BussinessLogicLayer.Account_BUS.GetOneAccount(username);
+
+            //Account_DTO account = new Account_DTO();
+            //account.account_name = username;
+            //account.password = BCrypt.Net.BCrypt.HashPassword(password);
+            //account.blocked = false;
+            //account.account_type_id = 1;
+            //account.group_type_id = 1;
+
+            //var ret = BussinessLogicLayer.Account_BUS.InsertOne(account);
+            //return;
+
+
+            KeyValuePair<bool, Account_DTO> result = BussinessLogicLayer.Account_BUS.GetOne("account_name", username);
             if (result.Key == false)
             {
                 lblErrorResponse.Text = "Không tìm thấy tài khoản";
                 return;
             }
 
+            Helper.Instance().gIsLogin = true;
             Helper.Instance().gAccount = result.Value;
 
             string verify_password = Helper.Instance().gAccount.password;
@@ -61,7 +74,6 @@ namespace PresentationLayer
 
             UtilityLayer.Logging.Instance().LogInfo("Log auth [Login]: " + username);
 
-            Helper.Instance().gIsLogin = true;
             timer.Start();
         }
 

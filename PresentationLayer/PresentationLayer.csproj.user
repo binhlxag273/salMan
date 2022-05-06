@@ -4,6 +4,9 @@
     <Compile Update="AccountAll.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AccountPasswordChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="AccountUpsert.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -11,6 +14,21 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CategoryAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CategoryDetailDateOffUpsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CategoryDetailAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CategoryDetailSalaryProcessUpsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CategoryDetailUpsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CategoryUpsert.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ChildFormAccount.cs">
@@ -31,10 +49,43 @@
     <Compile Update="ChildFormStaff.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ChildFormTimeKeepingProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SalaryProcessAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SalaryProcessUpsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffDetailReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffDetailSalaryProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffDetailStatistic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffSearchAdvance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffDetailTimeKeepingProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffUpsert.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

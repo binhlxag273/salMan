@@ -33,9 +33,8 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.btnAdd = new FontAwesome.Sharp.IconButton();
             this.btnEdit = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.btnImport = new FontAwesome.Sharp.IconButton();
-            this.btnExport = new FontAwesome.Sharp.IconButton();
+            this.btnDelete = new FontAwesome.Sharp.IconButton();
+            this.btnOpenDetail = new FontAwesome.Sharp.IconButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.btnEnd = new System.Windows.Forms.Button();
@@ -44,7 +43,6 @@
             this.btnFront = new System.Windows.Forms.Button();
             this.dgCategories = new System.Windows.Forms.DataGridView();
             this.tooltip = new System.Windows.Forms.ToolTip(this.components);
-            this.btnOpenDetail = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -66,7 +64,7 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 6;
+            this.tableLayoutPanel2.ColumnCount = 4;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16F));
@@ -75,15 +73,13 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17F));
             this.tableLayoutPanel2.Controls.Add(this.btnAdd, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnEdit, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.iconButton3, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.btnImport, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.btnExport, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnDelete, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnOpenDetail, 5, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(7, 0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(286, 48);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(262, 48);
             this.tableLayoutPanel2.TabIndex = 5;
             // 
             // btnAdd
@@ -96,10 +92,11 @@
             this.btnAdd.IconSize = 35;
             this.btnAdd.Location = new System.Drawing.Point(3, 3);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(42, 42);
+            this.btnAdd.Size = new System.Drawing.Size(60, 42);
             this.btnAdd.TabIndex = 0;
             this.tooltip.SetToolTip(this.btnAdd, "Thêm danh mục");
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnEdit
             // 
@@ -109,57 +106,45 @@
             this.btnEdit.IconColor = System.Drawing.Color.Black;
             this.btnEdit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnEdit.IconSize = 35;
-            this.btnEdit.Location = new System.Drawing.Point(51, 3);
+            this.btnEdit.Location = new System.Drawing.Point(69, 3);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(42, 42);
+            this.btnEdit.Size = new System.Drawing.Size(60, 42);
             this.btnEdit.TabIndex = 1;
             this.tooltip.SetToolTip(this.btnEdit, "Sửa danh mục");
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
-            // iconButton3
+            // btnDelete
             // 
-            this.iconButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Trash;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 28;
-            this.iconButton3.Location = new System.Drawing.Point(99, 3);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(39, 42);
-            this.iconButton3.TabIndex = 2;
-            this.tooltip.SetToolTip(this.iconButton3, "Xóa danh mục");
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnDelete.IconChar = FontAwesome.Sharp.IconChar.Trash;
+            this.btnDelete.IconColor = System.Drawing.Color.Black;
+            this.btnDelete.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnDelete.IconSize = 28;
+            this.btnDelete.Location = new System.Drawing.Point(135, 3);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(56, 42);
+            this.btnDelete.TabIndex = 2;
+            this.tooltip.SetToolTip(this.btnDelete, "Xóa danh mục");
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // btnImport
+            // btnOpenDetail
             // 
-            this.btnImport.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnImport.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnImport.IconChar = FontAwesome.Sharp.IconChar.Download;
-            this.btnImport.IconColor = System.Drawing.Color.Black;
-            this.btnImport.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnImport.IconSize = 30;
-            this.btnImport.Location = new System.Drawing.Point(144, 3);
-            this.btnImport.Name = "btnImport";
-            this.btnImport.Size = new System.Drawing.Size(42, 42);
-            this.btnImport.TabIndex = 3;
-            this.tooltip.SetToolTip(this.btnImport, "Import");
-            this.btnImport.UseVisualStyleBackColor = true;
-            // 
-            // btnExport
-            // 
-            this.btnExport.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExport.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnExport.IconChar = FontAwesome.Sharp.IconChar.FileImport;
-            this.btnExport.IconColor = System.Drawing.Color.Black;
-            this.btnExport.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnExport.IconSize = 30;
-            this.btnExport.Location = new System.Drawing.Point(192, 3);
-            this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(39, 42);
-            this.btnExport.TabIndex = 4;
-            this.tooltip.SetToolTip(this.btnExport, "Export");
-            this.btnExport.UseVisualStyleBackColor = true;
+            this.btnOpenDetail.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOpenDetail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnOpenDetail.IconChar = FontAwesome.Sharp.IconChar.ExternalLinkSquareAlt;
+            this.btnOpenDetail.IconColor = System.Drawing.Color.Black;
+            this.btnOpenDetail.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnOpenDetail.IconSize = 30;
+            this.btnOpenDetail.Location = new System.Drawing.Point(197, 3);
+            this.btnOpenDetail.Name = "btnOpenDetail";
+            this.btnOpenDetail.Size = new System.Drawing.Size(62, 42);
+            this.btnOpenDetail.TabIndex = 5;
+            this.tooltip.SetToolTip(this.btnOpenDetail, "Mở danh mục chi tiết");
+            this.btnOpenDetail.UseVisualStyleBackColor = true;
+            this.btnOpenDetail.Click += new System.EventHandler(this.btnOpenDetail_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -256,20 +241,7 @@
             this.dgCategories.RowTemplate.Height = 33;
             this.dgCategories.Size = new System.Drawing.Size(1155, 549);
             this.dgCategories.TabIndex = 2;
-            // 
-            // btnOpenDetail
-            // 
-            this.btnOpenDetail.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnOpenDetail.IconChar = FontAwesome.Sharp.IconChar.ExternalLinkSquareAlt;
-            this.btnOpenDetail.IconColor = System.Drawing.Color.Black;
-            this.btnOpenDetail.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnOpenDetail.IconSize = 30;
-            this.btnOpenDetail.Location = new System.Drawing.Point(237, 3);
-            this.btnOpenDetail.Name = "btnOpenDetail";
-            this.btnOpenDetail.Size = new System.Drawing.Size(46, 42);
-            this.btnOpenDetail.TabIndex = 5;
-            this.tooltip.SetToolTip(this.btnOpenDetail, "Mở danh mục chi tiết");
-            this.btnOpenDetail.UseVisualStyleBackColor = true;
+            this.dgCategories.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgCategories_CellDoubleClick);
             // 
             // CategoryAll
             // 
@@ -281,6 +253,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CategoryAll";
             this.Text = "CategoryAll";
+            this.Load += new System.EventHandler(this.CategoryAll_Load);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -297,9 +270,7 @@
         private FontAwesome.Sharp.IconButton btnAdd;
         private ToolTip tooltip;
         private FontAwesome.Sharp.IconButton btnEdit;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton btnImport;
-        private FontAwesome.Sharp.IconButton btnExport;
+        private FontAwesome.Sharp.IconButton btnDelete;
         private TableLayoutPanel tableLayoutPanel1;
         private NumericUpDown numericUpDown1;
         private Button btnEnd;

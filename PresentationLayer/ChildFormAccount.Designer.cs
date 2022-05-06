@@ -47,7 +47,7 @@
             this.panel1.Controls.Add(this.iconButton1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(959, 82);
+            this.panel1.Size = new System.Drawing.Size(944, 82);
             this.panel1.TabIndex = 0;
             // 
             // iconButton3
@@ -106,7 +106,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlAccountContainer.Location = new System.Drawing.Point(2, 83);
             this.pnlAccountContainer.Name = "pnlAccountContainer";
-            this.pnlAccountContainer.Size = new System.Drawing.Size(957, 468);
+            this.pnlAccountContainer.Size = new System.Drawing.Size(942, 459);
             this.pnlAccountContainer.TabIndex = 1;
             // 
             // ChildFormAccount
@@ -119,6 +119,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ChildFormAccount";
             this.Text = "ChildFormAccount";
+            this.Load += new System.EventHandler(this.ChildFormAccount_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

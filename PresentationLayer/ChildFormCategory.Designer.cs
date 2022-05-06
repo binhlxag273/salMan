@@ -29,7 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCategoryDetail = new FontAwesome.Sharp.IconButton();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.btnCategoryExtend = new FontAwesome.Sharp.IconButton();
             this.btnCategory = new FontAwesome.Sharp.IconButton();
             this.pnlCategoryContainer = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -41,28 +42,45 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSize = true;
-            this.panel1.Controls.Add(this.btnCategoryDetail);
+            this.panel1.Controls.Add(this.iconButton1);
+            this.panel1.Controls.Add(this.btnCategoryExtend);
             this.panel1.Controls.Add(this.btnCategory);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(824, 85);
             this.panel1.TabIndex = 2;
             // 
-            // btnCategoryDetail
+            // iconButton1
             // 
-            this.btnCategoryDetail.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCategoryDetail.IconChar = FontAwesome.Sharp.IconChar.Affiliatetheme;
-            this.btnCategoryDetail.IconColor = System.Drawing.Color.Black;
-            this.btnCategoryDetail.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCategoryDetail.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCategoryDetail.Location = new System.Drawing.Point(171, 3);
-            this.btnCategoryDetail.Name = "btnCategoryDetail";
-            this.btnCategoryDetail.Size = new System.Drawing.Size(165, 79);
-            this.btnCategoryDetail.TabIndex = 2;
-            this.btnCategoryDetail.Text = "Danh mục chi tiết";
-            this.btnCategoryDetail.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCategoryDetail.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnCategoryDetail.UseVisualStyleBackColor = true;
+            this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Affiliatetheme;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.iconButton1.Location = new System.Drawing.Point(342, 3);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(165, 79);
+            this.iconButton1.TabIndex = 3;
+            this.iconButton1.Text = "Quyền danh mục";
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButton1.UseVisualStyleBackColor = true;
+            // 
+            // btnCategoryExtend
+            // 
+            this.btnCategoryExtend.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCategoryExtend.IconChar = FontAwesome.Sharp.IconChar.Affiliatetheme;
+            this.btnCategoryExtend.IconColor = System.Drawing.Color.Black;
+            this.btnCategoryExtend.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCategoryExtend.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnCategoryExtend.Location = new System.Drawing.Point(171, 3);
+            this.btnCategoryExtend.Name = "btnCategoryExtend";
+            this.btnCategoryExtend.Size = new System.Drawing.Size(165, 79);
+            this.btnCategoryExtend.TabIndex = 2;
+            this.btnCategoryExtend.Text = "Danh mục khác";
+            this.btnCategoryExtend.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCategoryExtend.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnCategoryExtend.UseVisualStyleBackColor = true;
             // 
             // btnCategory
             // 
@@ -101,6 +119,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ChildFormCategory";
             this.Text = "ChildFormCategory";
+            this.Load += new System.EventHandler(this.ChildFormCategory_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -110,8 +129,9 @@
         #endregion
 
         private Panel panel1;
-        private FontAwesome.Sharp.IconButton btnCategoryDetail;
+        private FontAwesome.Sharp.IconButton btnCategoryExtend;
         private FontAwesome.Sharp.IconButton btnCategory;
         private Panel pnlCategoryContainer;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

@@ -1,0 +1,178 @@
+2022-05-08 00:00:03,068  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 00:00:03,251  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 00:00:49,166  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 00:00:49,300  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 00:01:09,799  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: insert into Category values(@code,@name,@is_system_category)
+2022-05-08 00:02:41,785  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 00:02:41,972  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 00:02:50,340  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Category where  id=@id_0 
+2022-05-08 00:04:21,413  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 00:04:21,629  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 10:48:31,963  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 10:48:32,518  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 10:49:53,249  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 10:49:53,345  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 11:03:33,690  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 11:03:33,798  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 14:09:34,075  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 14:09:34,178  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 14:09:53,695  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id where id=@id
+2022-05-08 14:10:42,423  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 14:10:42,530  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 14:10:54,794  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id where id=@id
+2022-05-08 14:53:02,330  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 14:53:02,438  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 14:53:12,181  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-08 14:54:55,595  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 14:54:55,691  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 14:55:08,380  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-08 14:55:40,068  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 14:55:40,155  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 14:56:34,638  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-08 14:59:53,366  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 14:59:53,442  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:01:48,642  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:01:48,752  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:01:57,268  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-08 15:03:40,370  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:03:40,442  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:03:50,775  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Category where  id=@id_0 or id=@id_1 
+2022-05-08 15:03:56,744  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-08 15:04:17,818  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [Error][StaffUpsert][btnUpsert_Click]: Violation of UNIQUE KEY constraint 'UQ__Account__6894C54A1235BE17'. Cannot insert duplicate key in object 'dbo.Account'. The duplicate key value is (balebom@gmail.com).
+2022-05-08 15:05:41,263  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-08 15:10:30,110  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:10:30,231  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:12:54,563  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [Error][StaffUpsert][btnUpert_Click]: An explicit value for the identity column in table 'StaffInfo' can only be specified when a column list is used and IDENTITY_INSERT is ON.
+2022-05-08 15:12:57,493  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [Error][StaffUpsert][btnUpsert_Click]: Violation of UNIQUE KEY constraint 'UQ__Account__6894C54A1235BE17'. Cannot insert duplicate key in object 'dbo.Account'. The duplicate key value is (balebom_01@gmail.com).
+2022-05-08 15:13:07,740  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-08 15:18:15,216  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:18:15,323  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:20:29,679  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-08 15:20:34,180  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Error: [DataProvider][GetMany]: Column 'account_ext' does not belong to table .
+2022-05-08 15:20:52,919  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:20:52,968  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:20:57,622  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Error: [DataProvider][GetMany]: Column 'account_ext' does not belong to table .
+2022-05-08 15:23:40,976  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:23:41,030  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:25:39,475  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:25:39,564  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:26:21,171  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 15:26:36,199  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 15:28:05,555  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:28:05,613  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:28:13,529  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 15:28:22,226  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 15:30:37,760  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:30:37,855  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:30:53,462  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 15:31:04,180  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 15:38:32,154  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:38:32,269  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:38:44,094  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 15:41:47,891  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:41:47,986  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:41:59,734  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 15:42:41,065  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:42:41,113  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:47:02,370  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:47:02,437  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 15:47:09,136  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from StaffInfo where  id=@id_0 
+2022-05-08 15:47:19,234  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-08 15:47:53,690  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-08 15:49:31,206  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 15:49:31,302  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 19:45:11,952  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 19:45:12,111  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 19:48:04,761  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-08 19:48:16,395  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 19:49:20,821  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-08 19:49:34,567  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 19:51:42,767  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 19:51:42,891  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 19:55:29,532  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 19:55:29,690  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 19:58:01,453  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 19:58:01,568  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:02:34,857  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:02:35,014  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:24:34,677  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:24:34,830  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:25:36,541  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:25:36,642  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:26:46,618  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:26:46,719  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:28:52,678  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:28:52,782  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:31:01,108  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:31:01,218  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:32:14,421  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:32:14,524  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:33:02,021  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:33:02,077  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:41:34,039  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:41:34,168  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:58:47,260  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:58:47,410  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 20:59:59,032  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 20:59:59,138  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 21:06:08,117  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 21:06:08,234  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 21:11:49,272  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 21:11:49,340  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 21:23:51,210  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 21:23:51,441  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 21:26:24,417  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 21:26:24,504  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 21:34:33,824  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 21:34:33,945  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 21:38:32,627  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 21:38:32,718  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 21:45:03,495  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 21:45:03,603  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 21:45:51,239  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 21:45:51,326  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 22:10:55,413  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 22:10:55,503  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 22:11:03,948  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 22:11:14,708  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 22:11:31,751  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 22:11:37,464  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 22:21:17,457  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 22:21:17,552  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 22:26:12,174  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 22:26:12,270  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 22:27:49,138  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 22:27:49,222  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 22:58:15,936  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 22:58:16,020  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 22:59:00,240  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 22:59:00,317  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 22:59:53,703  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 22:59:53,780  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:01:30,025  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:01:30,202  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:02:39,927  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:02:40,027  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:03:26,317  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:03:26,362  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:29:13,961  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:29:14,058  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:32:44,123  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:32:44,239  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:34:09,244  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:34:09,315  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:35:53,829  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 23:36:02,707  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-08 23:37:57,304  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:37:57,360  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:39:10,362  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-08 23:39:25,441  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-08 23:39:37,311  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-08 23:50:58,383  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:50:58,492  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:53:06,434  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:53:06,505  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:54:20,407  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:54:20,446  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-08 23:55:36,097  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-08 23:55:36,134  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com

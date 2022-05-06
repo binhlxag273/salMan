@@ -34,8 +34,8 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.btnAdd = new FontAwesome.Sharp.IconButton();
             this.btnEdit = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.btnChangePassword = new FontAwesome.Sharp.IconButton();
+            this.btnDelete = new FontAwesome.Sharp.IconButton();
+            this.btnPasswordChange = new FontAwesome.Sharp.IconButton();
             this.btnResetPassword = new FontAwesome.Sharp.IconButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -92,8 +92,8 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.Controls.Add(this.btnAdd, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnEdit, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.iconButton3, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.btnChangePassword, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnDelete, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.btnPasswordChange, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnResetPassword, 4, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(7, 0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -134,37 +134,41 @@
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
-            // iconButton3
+            // btnDelete
             // 
-            this.iconButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Trash;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 28;
-            this.iconButton3.Location = new System.Drawing.Point(105, 3);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(45, 42);
-            this.iconButton3.TabIndex = 2;
-            this.tooltip.SetToolTip(this.iconButton3, "Xóa tài khoản");
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnDelete.IconChar = FontAwesome.Sharp.IconChar.Trash;
+            this.btnDelete.IconColor = System.Drawing.Color.Black;
+            this.btnDelete.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnDelete.IconSize = 28;
+            this.btnDelete.Location = new System.Drawing.Point(105, 3);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(45, 42);
+            this.btnDelete.TabIndex = 2;
+            this.tooltip.SetToolTip(this.btnDelete, "Xóa tài khoản");
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // btnChangePassword
+            // btnPasswordChange
             // 
-            this.btnChangePassword.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnChangePassword.IconChar = FontAwesome.Sharp.IconChar.Lock;
-            this.btnChangePassword.IconColor = System.Drawing.Color.Black;
-            this.btnChangePassword.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnChangePassword.IconSize = 30;
-            this.btnChangePassword.Location = new System.Drawing.Point(156, 3);
-            this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Size = new System.Drawing.Size(45, 42);
-            this.btnChangePassword.TabIndex = 3;
-            this.tooltip.SetToolTip(this.btnChangePassword, "Đổi mật khẩu");
-            this.btnChangePassword.UseVisualStyleBackColor = true;
+            this.btnPasswordChange.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPasswordChange.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnPasswordChange.IconChar = FontAwesome.Sharp.IconChar.Lock;
+            this.btnPasswordChange.IconColor = System.Drawing.Color.Black;
+            this.btnPasswordChange.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPasswordChange.IconSize = 30;
+            this.btnPasswordChange.Location = new System.Drawing.Point(156, 3);
+            this.btnPasswordChange.Name = "btnPasswordChange";
+            this.btnPasswordChange.Size = new System.Drawing.Size(45, 42);
+            this.btnPasswordChange.TabIndex = 3;
+            this.tooltip.SetToolTip(this.btnPasswordChange, "Đổi mật khẩu");
+            this.btnPasswordChange.UseVisualStyleBackColor = true;
+            this.btnPasswordChange.Click += new System.EventHandler(this.btnPasswordChange_Click);
             // 
             // btnResetPassword
             // 
+            this.btnResetPassword.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnResetPassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnResetPassword.IconChar = FontAwesome.Sharp.IconChar.Redo;
             this.btnResetPassword.IconColor = System.Drawing.Color.Black;
@@ -176,6 +180,7 @@
             this.btnResetPassword.TabIndex = 4;
             this.tooltip.SetToolTip(this.btnResetPassword, "Reset mật khẩu");
             this.btnResetPassword.UseVisualStyleBackColor = true;
+            this.btnResetPassword.Click += new System.EventHandler(this.btnResetPassword_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -290,9 +295,9 @@
         private TableLayoutPanel tableLayoutPanel2;
         private FontAwesome.Sharp.IconButton btnAdd;
         private FontAwesome.Sharp.IconButton btnEdit;
-        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton btnDelete;
         private ToolTip tooltip;
-        private FontAwesome.Sharp.IconButton btnChangePassword;
+        private FontAwesome.Sharp.IconButton btnPasswordChange;
         private FontAwesome.Sharp.IconButton btnResetPassword;
     }
 }

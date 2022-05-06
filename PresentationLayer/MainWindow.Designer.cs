@@ -166,7 +166,7 @@
             this.btnSalaryProcess.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnSalaryProcess.Size = new System.Drawing.Size(256, 60);
             this.btnSalaryProcess.TabIndex = 2;
-            this.btnSalaryProcess.Text = "Quá trình lương";
+            this.btnSalaryProcess.Text = "Chấm công";
             this.btnSalaryProcess.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalaryProcess.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSalaryProcess.UseVisualStyleBackColor = true;

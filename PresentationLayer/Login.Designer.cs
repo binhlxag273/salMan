@@ -227,15 +227,17 @@
             this.pgbLogin.Location = new System.Drawing.Point(415, 542);
             this.pgbLogin.Name = "pgbLogin";
             this.pgbLogin.Size = new System.Drawing.Size(570, 10);
+            this.pgbLogin.Step = 5;
             this.pgbLogin.TabIndex = 26;
             // 
             // timer
             // 
-            this.timer.Interval = 15;
+            this.timer.Interval = 10;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // Login
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;

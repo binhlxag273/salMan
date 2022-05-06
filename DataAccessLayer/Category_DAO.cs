@@ -4,28 +4,40 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static DataTransferObject.DataTransferObject;
 
 namespace DataAccessLayer
 {
     public class Category_DAO
     {
-        public static List<DataTransferObject.DataTransferObject.Category_DTO> GetCategory(int type_id)
+        public static KeyValuePair<bool, string> DeleteOne(int id)
         {
-            DataTable dt = DataProvider.Instance().GetDataTable("select * from Category where type_id=@type_id", sqlCommand => {
-                sqlCommand.Parameters.AddWithValue("@type_id", type_id);
-            });
+            return DataProvider.Instance().DeleteOne("Category", id);
+        }
 
-            List<DataTransferObject.DataTransferObject.Category_DTO> result = new List<DataTransferObject.DataTransferObject.Category_DTO>();
+        public static KeyValuePair<bool, string> DeleteMany(List<int> list_int)
+        {
+            return DataProvider.Instance().DeleteMany("Category", list_int);
+        }
 
-            foreach (DataRow dr in dt.Rows)
-            {
-                DataTransferObject.DataTransferObject.Category_DTO ct = new DataTransferObject.DataTransferObject.Category_DTO();
-                ct.id = Int32.Parse(dr["id"].ToString());
-                ct.display_name = dr["display_name"].ToString();
-                result.Add(ct);
-            }
+        public static KeyValuePair<bool, List<Category_DTO>> GetMany()
+        {
+            return DataProvider.Instance().GetMany<Category_DTO>("Category");
+        }
 
-            return result;
+        public static KeyValuePair<bool, Category_DTO> GetOne(int id)
+        {
+            return DataProvider.Instance().GetOne<Category_DTO>("Category", id);
+        }
+
+        public static KeyValuePair<bool, string> UpdateOne(Category_DTO category)
+        {
+            return DataProvider.Instance().UpdateOne<Category_DTO>("Category", category);
+        }
+
+        public static KeyValuePair<bool, string> InsertOne(Category_DTO category)
+        {
+            return DataProvider.Instance().InsertOne<Category_DTO>("Category", category);
         }
     }
 }

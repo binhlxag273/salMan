@@ -17,21 +17,16 @@ namespace PresentationLayer
             InitializeComponent();
         }
 
-        private void ClearPnlAccountContainer()
+        private void ClearForm()
         {
-            if (pnlAccountContainer.Controls.Count == 0)
-            {
-                return;
-            }
-
-            ((Form)pnlAccountContainer.Controls[0]).Close();
+            if (pnlAccountContainer.Controls.Count != 0)
+                ((Form)pnlAccountContainer.Controls[0]).Close();
 
             pnlAccountContainer.Controls.Clear();
         }
 
-        private void btnAccountAll_Click(object sender, EventArgs e)
+        private void InitForm()
         {
-            ClearPnlAccountContainer();
             AccountAll childrenForm = new AccountAll();
             childrenForm.TopLevel = false;
             childrenForm.Width = pnlAccountContainer.Width;
@@ -40,9 +35,16 @@ namespace PresentationLayer
             childrenForm.Show();
         }
 
-        private void btnAddAccount_Click(object sender, EventArgs e)
+        private void btnAccountAll_Click(object sender, EventArgs e)
+        {
+            InitForm();
+
+        }
+
+        private void ChildFormAccount_Load(object sender, EventArgs e)
         {
 
+            InitForm();
         }
     }
 }

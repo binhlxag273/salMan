@@ -1,0 +1,103 @@
+2022-05-09 00:00:28,673  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 00:00:28,744  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 00:01:22,551  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 00:01:22,626  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 12:56:28,838  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 12:56:29,177  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 13:05:15,446  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 13:05:15,596  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 13:11:11,504  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 13:11:11,623  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 14:35:55,699  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 14:35:55,820  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 14:42:59,845  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 14:42:59,933  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 14:45:58,340  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 14:45:58,384  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 14:49:03,686  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-09 15:29:52,673  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 15:29:52,792  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 15:42:58,142  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 15:42:58,219  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 18:58:51,558  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 18:58:51,739  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 19:00:07,550  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 19:00:07,663  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 19:01:02,008  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 19:01:02,188  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 19:03:12,730  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 19:03:12,871  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 19:05:07,549  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 19:05:07,666  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 19:06:18,097  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 19:06:18,202  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 19:08:51,130  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 19:08:51,240  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 19:11:13,107  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 19:11:13,206  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 19:12:59,787  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 19:12:59,893  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:43:02,441  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:43:02,667  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:43:53,818  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:43:53,909  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:46:59,005  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:46:59,121  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:48:43,604  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:48:43,736  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:52:58,450  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:52:58,553  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:53:41,903  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:53:41,983  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:54:25,848  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:54:25,892  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:55:04,129  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:55:04,175  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:56:18,054  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:56:18,130  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:56:46,059  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:56:46,104  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:57:57,469  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:57:57,549  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 22:58:31,097  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 22:58:31,144  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:01:25,306  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:01:25,414  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:07:30,344  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:07:30,454  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:08:57,409  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:08:57,513  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:09:38,857  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:09:38,905  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:12:15,704  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:12:15,811  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:13:06,652  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:13:06,748  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:16:04,081  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:16:04,189  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:16:32,246  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:16:32,322  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:46:40,327  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:46:40,560  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:47:40,677  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:47:40,754  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:49:07,608  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:49:07,709  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:50:06,952  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:50:06,998  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:50:39,992  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:50:40,043  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:51:21,154  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:51:21,232  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:52:04,535  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:52:04,606  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:56:11,826  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:56:11,903  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:56:43,258  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:56:43,332  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:57:36,576  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:57:36,645  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:57:59,215  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:57:59,258  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-09 23:58:53,287  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-09 23:58:53,333  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
