@@ -1,56 +1,69 @@
-2022-05-11 00:08:26,202  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:08:26,634  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:21:45,109  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:21:45,260  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:24:46,757  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:24:46,895  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:33:00,791  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:33:01,013  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:33:35,835  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:33:35,952  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:37:27,513  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:37:27,643  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:41:27,925  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:41:28,046  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:44:19,200  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:44:19,383  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:44:35,914  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Category set code=@code,name=@name,is_system_category=@is_system_category where id=@id
-2022-05-11 00:45:58,632  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:45:58,789  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:46:10,848  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Category set code=@code,name=@name,is_system_category=@is_system_category where id=@id
-2022-05-11 00:46:18,751  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Category set code=@code,name=@name,is_system_category=@is_system_category where id=@id
-2022-05-11 00:46:25,272  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Category set code=@code,name=@name,is_system_category=@is_system_category where id=@id
-2022-05-11 00:46:31,325  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Category set code=@code,name=@name,is_system_category=@is_system_category where id=@id
-2022-05-11 00:57:50,534  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 00:57:50,710  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 00:57:59,992  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Category set code=@code,name=@name,is_system_category=@is_system_category where id=@id
-2022-05-11 01:03:07,522  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:03:07,724  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:03:22,992  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: update Category set code=@code,name=@name,is_system_category=@is_system_category where id=@id
-2022-05-11 01:07:37,053  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:07:37,284  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:10:39,367  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:10:39,474  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:15:10,724  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:15:10,895  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:15:50,187  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: insert into CategoryDetail values(@code,@name,@category_id)
-2022-05-11 01:16:24,427  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: insert into CategoryDetail values(@code,@name,@category_id)
-2022-05-11 01:27:14,645  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:27:14,781  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:28:21,801  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:28:21,860  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:30:25,112  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:30:25,316  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:32:18,606  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:32:18,716  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:33:24,202  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:33:24,326  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:36:36,880  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:36:37,005  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 01:39:24,035  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 01:39:24,166  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 21:30:09,301  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 21:30:09,595  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-11 21:30:23,401  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - [CRUD]: insert into TimekeepingProcess values (@staff_info_id0,@timekeeping_date0,@timekeeping_status0,@evaluated_by_id0)
-2022-05-11 23:29:53,435  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-11 23:29:53,523  INFO [1] [D:\agu\ltql\PayrollManagement\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-26 00:11:00,964  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:11:01,009  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:11:10,886  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near 'values'.
+2022-05-26 00:12:08,027  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:12:08,065  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:12:16,464  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near 'values'.
+2022-05-26 00:14:06,555  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:14:06,598  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:15:26,504  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:15:26,539  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:16:49,977  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:16:50,016  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:17:34,216  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:17:34,267  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:18:29,214  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:18:29,255  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:19:40,589  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:19:40,632  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:19:48,603  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-26 00:20:37,727  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:20:37,764  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:21:08,687  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into TimekeepingProcess values (@staff_info_id0,@timekeeping_date0,@timekeeping_status0,@evaluated_by_id0),(@staff_info_id1,@timekeeping_date1,@timekeeping_status1,@evaluated_by_id1),(@staff_info_id2,@timekeeping_date2,@timekeeping_status2,@evaluated_by_id2),(@staff_info_id3,@timekeeping_date3,@timekeeping_status3,@evaluated_by_id3),(@staff_info_id4,@timekeeping_date4,@timekeeping_status4,@evaluated_by_id4),(@staff_info_id5,@timekeeping_date5,@timekeeping_status5,@evaluated_by_id5),(@staff_info_id6,@timekeeping_date6,@timekeeping_status6,@evaluated_by_id6),(@staff_info_id7,@timekeeping_date7,@timekeeping_status7,@evaluated_by_id7),(@staff_info_id8,@timekeeping_date8,@timekeeping_status8,@evaluated_by_id8)
+2022-05-26 00:21:08,702  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-26 00:21:20,990  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into TimekeepingProcess values (@staff_info_id0,@timekeeping_date0,@timekeeping_status0,@evaluated_by_id0),(@staff_info_id1,@timekeeping_date1,@timekeeping_status1,@evaluated_by_id1),(@staff_info_id2,@timekeeping_date2,@timekeeping_status2,@evaluated_by_id2),(@staff_info_id3,@timekeeping_date3,@timekeeping_status3,@evaluated_by_id3)
+2022-05-26 00:21:20,992  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-26 00:44:13,582  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:44:13,625  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:44:28,140  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near '@staff_info_id_1'.
+2022-05-26 00:45:04,799  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:45:04,842  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:45:47,256  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near '@staff_info_id_1'.
+2022-05-26 00:46:07,561  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:46:07,604  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:46:27,343  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near ','.
+2022-05-26 00:46:51,283  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:46:51,325  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:47:05,972  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2),(@staff_info_id_3,@timekeeping_date_3,@timekeeping_status_3,@evaluated_by_id_3)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-26 00:47:05,991  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-26 00:47:21,096  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: The MERGE statement attempted to UPDATE or DELETE the same row more than once. This happens when a target row matches more than one source row. A MERGE statement cannot UPDATE/DELETE the same row of the target table multiple times. Refine the ON clause to ensure a target row matches at most one source row, or use the GROUP BY clause to group the source rows.
+2022-05-26 00:47:35,540  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: The MERGE statement attempted to UPDATE or DELETE the same row more than once. This happens when a target row matches more than one source row. A MERGE statement cannot UPDATE/DELETE the same row of the target table multiple times. Refine the ON clause to ensure a target row matches at most one source row, or use the GROUP BY clause to group the source rows.
+2022-05-26 00:53:11,345  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:53:11,391  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:53:22,275  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-26 00:53:22,283  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-26 00:55:39,513  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:55:39,558  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:56:48,169  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 00:56:48,206  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 00:57:06,200  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-26 01:06:13,409  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 01:06:13,444  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 01:06:27,389  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2),(@staff_info_id_3,@timekeeping_date_3,@timekeeping_status_3,@evaluated_by_id_3)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-26 01:06:27,398  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-26 01:06:36,246  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-26 01:06:36,249  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-26 01:06:45,508  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-26 01:08:28,032  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 01:08:28,078  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 01:11:28,589  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 01:11:28,631  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 01:12:10,922  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 01:12:10,963  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 01:26:07,350  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 01:26:07,396  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 01:28:21,553  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 01:28:21,598  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 01:38:54,751  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-26 01:38:54,797  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-26 01:39:23,881  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update SalaryProcess set staff_info_id=@staff_info_id,title=@title,is_paid=@is_paid,payment_date=@payment_date,salary=@salary where id=@id

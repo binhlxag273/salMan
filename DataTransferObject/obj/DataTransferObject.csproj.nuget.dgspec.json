@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\agu\\ltql\\PayrollManagement\\DataTransferObject\\DataTransferObject.csproj": {}
+    "F:\\salMan\\DataTransferObject\\DataTransferObject.csproj": {}
   },
   "projects": {
-    "D:\\agu\\ltql\\PayrollManagement\\DataTransferObject\\DataTransferObject.csproj": {
+    "F:\\salMan\\DataTransferObject\\DataTransferObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\agu\\ltql\\PayrollManagement\\DataTransferObject\\DataTransferObject.csproj",
+        "projectUniqueName": "F:\\salMan\\DataTransferObject\\DataTransferObject.csproj",
         "projectName": "DataTransferObject",
-        "projectPath": "D:\\agu\\ltql\\PayrollManagement\\DataTransferObject\\DataTransferObject.csproj",
-        "packagesPath": "C:\\Users\\binhl\\.nuget\\packages\\",
-        "outputPath": "D:\\agu\\ltql\\PayrollManagement\\DataTransferObject\\obj\\",
+        "projectPath": "F:\\salMan\\DataTransferObject\\DataTransferObject.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "F:\\salMan\\DataTransferObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\binhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\agu\\ltql\\PayrollManagement\\UtilityLayer\\UtilityLayer.csproj": {
-                "projectPath": "D:\\agu\\ltql\\PayrollManagement\\UtilityLayer\\UtilityLayer.csproj"
+              "F:\\salMan\\UtilityLayer\\UtilityLayer.csproj": {
+                "projectPath": "F:\\salMan\\UtilityLayer\\UtilityLayer.csproj"
               }
             }
           }
@@ -67,21 +67,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\agu\\ltql\\PayrollManagement\\UtilityLayer\\UtilityLayer.csproj": {
+    "F:\\salMan\\UtilityLayer\\UtilityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\agu\\ltql\\PayrollManagement\\UtilityLayer\\UtilityLayer.csproj",
+        "projectUniqueName": "F:\\salMan\\UtilityLayer\\UtilityLayer.csproj",
         "projectName": "UtilityLayer",
-        "projectPath": "D:\\agu\\ltql\\PayrollManagement\\UtilityLayer\\UtilityLayer.csproj",
-        "packagesPath": "C:\\Users\\binhl\\.nuget\\packages\\",
-        "outputPath": "D:\\agu\\ltql\\PayrollManagement\\UtilityLayer\\obj\\",
+        "projectPath": "F:\\salMan\\UtilityLayer\\UtilityLayer.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "F:\\salMan\\UtilityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\binhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,7 +130,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

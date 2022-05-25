@@ -58,12 +58,6 @@
     <Compile Update="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="SalaryProcessAll.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="SalaryProcessUpsert.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="StaffAll.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +68,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="StaffDetailSalaryProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffDetailSalaryProcessUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="StaffDetailStatistic.cs">

@@ -50,6 +50,7 @@ namespace PresentationLayer
             //account.group_type_id = 1;
 
             //var ret = BussinessLogicLayer.Account_BUS.InsertOne(account);
+            //MessageBox.Show(ret.Value);
             //return;
 
 
@@ -65,7 +66,7 @@ namespace PresentationLayer
 
             string verify_password = Helper.Instance().gAccount.password;
             bool verified = BCrypt.Net.BCrypt.Verify(password, verify_password);
-            
+
             if (!verified)
             {
                 lblErrorResponse.Text = "Mật khẩu không chính xác";

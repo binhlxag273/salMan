@@ -781,19 +781,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\binhl\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\agu\\ltql\\PayrollManagement\\PresentationLayer\\PresentationLayer.csproj",
+      "projectUniqueName": "F:\\salMan\\PresentationLayer\\PresentationLayer.csproj",
       "projectName": "PresentationLayer",
-      "projectPath": "D:\\agu\\ltql\\PayrollManagement\\PresentationLayer\\PresentationLayer.csproj",
-      "packagesPath": "C:\\Users\\binhl\\.nuget\\packages\\",
-      "outputPath": "D:\\agu\\ltql\\PayrollManagement\\PresentationLayer\\obj\\",
+      "projectPath": "F:\\salMan\\PresentationLayer\\PresentationLayer.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "F:\\salMan\\PresentationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\binhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -807,14 +807,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\agu\\ltql\\PayrollManagement\\BussinessLogicLayer\\BussinessLogicLayer.csproj": {
-              "projectPath": "D:\\agu\\ltql\\PayrollManagement\\BussinessLogicLayer\\BussinessLogicLayer.csproj"
+            "F:\\salMan\\BussinessLogicLayer\\BussinessLogicLayer.csproj": {
+              "projectPath": "F:\\salMan\\BussinessLogicLayer\\BussinessLogicLayer.csproj"
             },
-            "D:\\agu\\ltql\\PayrollManagement\\DataTransferObject\\DataTransferObject.csproj": {
-              "projectPath": "D:\\agu\\ltql\\PayrollManagement\\DataTransferObject\\DataTransferObject.csproj"
+            "F:\\salMan\\DataTransferObject\\DataTransferObject.csproj": {
+              "projectPath": "F:\\salMan\\DataTransferObject\\DataTransferObject.csproj"
             },
-            "D:\\agu\\ltql\\PayrollManagement\\UtilityLayer\\UtilityLayer.csproj": {
-              "projectPath": "D:\\agu\\ltql\\PayrollManagement\\UtilityLayer\\UtilityLayer.csproj"
+            "F:\\salMan\\UtilityLayer\\UtilityLayer.csproj": {
+              "projectPath": "F:\\salMan\\UtilityLayer\\UtilityLayer.csproj"
             }
           }
         }
@@ -856,7 +856,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

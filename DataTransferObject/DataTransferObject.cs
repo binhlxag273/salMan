@@ -51,9 +51,9 @@ namespace DataTransferObject
         public class Account_Display_DTO : Account_DTO
         {
             [Display(Name = "Loại tài khoản")]
-            public string account_type_ext { get; set; }
+            public string account_type_ext { get; set; } = "";
             [Display(Name = "Nhóm quyền")]
-            public string group_type_ext { get; set; }
+            public string group_type_ext { get; set; } = "";
         }
         // ------------
 
@@ -128,6 +128,7 @@ namespace DataTransferObject
             [Display(Name = "Lương tháng")]
             public string title { get; set; } = "";
             [Display(Name = "Đã trả lương")]
+            [UIHint("CheckBox")]
             public bool is_paid { get; set; }
             [Display(Name = "Ngày trả lương")]
             public string payment_date { get; set; } = "";

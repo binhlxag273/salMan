@@ -57,9 +57,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Navy;
-            this.label3.Location = new System.Drawing.Point(480, 43);
+            this.label3.Location = new System.Drawing.Point(384, 34);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(485, 54);
+            this.label3.Size = new System.Drawing.Size(413, 46);
             this.label3.TabIndex = 17;
             this.label3.Text = "Quản lý lương nhân viên";
             // 
@@ -67,9 +68,10 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel1.Location = new System.Drawing.Point(829, 442);
+            this.linkLabel1.Location = new System.Drawing.Point(663, 354);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(143, 25);
+            this.linkLabel1.Size = new System.Drawing.Size(114, 20);
             this.linkLabel1.TabIndex = 16;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Quên mật khẩu?";
@@ -81,11 +83,12 @@
             this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.Lock;
             this.iconPictureBox2.IconColor = System.Drawing.SystemColors.MenuHighlight;
             this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox2.IconSize = 45;
-            this.iconPictureBox2.Location = new System.Drawing.Point(584, 210);
+            this.iconPictureBox2.IconSize = 36;
+            this.iconPictureBox2.Location = new System.Drawing.Point(467, 168);
+            this.iconPictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Padding = new System.Windows.Forms.Padding(2, 4, 0, 0);
-            this.iconPictureBox2.Size = new System.Drawing.Size(45, 45);
+            this.iconPictureBox2.Padding = new System.Windows.Forms.Padding(2, 3, 0, 0);
+            this.iconPictureBox2.Size = new System.Drawing.Size(36, 36);
             this.iconPictureBox2.TabIndex = 15;
             this.iconPictureBox2.TabStop = false;
             // 
@@ -96,11 +99,12 @@
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.User;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.MenuHighlight;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconPictureBox1.IconSize = 45;
-            this.iconPictureBox1.Location = new System.Drawing.Point(584, 146);
+            this.iconPictureBox1.IconSize = 36;
+            this.iconPictureBox1.Location = new System.Drawing.Point(467, 117);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Padding = new System.Windows.Forms.Padding(2, 4, 0, 0);
-            this.iconPictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.iconPictureBox1.Padding = new System.Windows.Forms.Padding(2, 3, 0, 0);
+            this.iconPictureBox1.Size = new System.Drawing.Size(36, 36);
             this.iconPictureBox1.TabIndex = 14;
             this.iconPictureBox1.TabStop = false;
             // 
@@ -108,9 +112,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(480, 220);
+            this.label2.Location = new System.Drawing.Point(384, 176);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 28);
+            this.label2.Size = new System.Drawing.Size(84, 23);
             this.label2.TabIndex = 13;
             this.label2.Text = "Mật khẩu";
             // 
@@ -118,9 +123,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(442, 156);
+            this.label1.Location = new System.Drawing.Point(354, 125);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 28);
+            this.label1.Size = new System.Drawing.Size(117, 23);
             this.label1.TabIndex = 12;
             this.label1.Text = "Tên tài khoản";
             // 
@@ -130,9 +136,10 @@
             this.checkBox1.FlatAppearance.BorderSize = 0;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox1.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox1.Location = new System.Drawing.Point(635, 445);
+            this.checkBox1.Location = new System.Drawing.Point(508, 356);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(144, 22);
+            this.checkBox1.Size = new System.Drawing.Size(125, 21);
             this.checkBox1.TabIndex = 11;
             this.checkBox1.Text = "Nhớ mật khẩu";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -142,10 +149,11 @@
             this.txtPassword.BackColor = System.Drawing.Color.White;
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.txtPassword.Location = new System.Drawing.Point(635, 210);
+            this.txtPassword.Location = new System.Drawing.Point(508, 168);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(337, 38);
+            this.txtPassword.Size = new System.Drawing.Size(270, 32);
             this.txtPassword.TabIndex = 10;
             // 
             // txbUsername
@@ -154,9 +162,10 @@
             this.txbUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUsername.Font = new System.Drawing.Font("Segoe UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.txbUsername.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txbUsername.Location = new System.Drawing.Point(635, 146);
+            this.txbUsername.Location = new System.Drawing.Point(508, 117);
+            this.txbUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbUsername.Name = "txbUsername";
-            this.txbUsername.Size = new System.Drawing.Size(337, 38);
+            this.txbUsername.Size = new System.Drawing.Size(270, 32);
             this.txbUsername.TabIndex = 9;
             // 
             // btnLogin
@@ -164,9 +173,10 @@
             this.btnLogin.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnLogin.Location = new System.Drawing.Point(635, 294);
+            this.btnLogin.Location = new System.Drawing.Point(508, 235);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(337, 43);
+            this.btnLogin.Size = new System.Drawing.Size(270, 34);
             this.btnLogin.TabIndex = 18;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -178,8 +188,9 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.ImageLocation = "";
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(415, 566);
+            this.pictureBox1.Size = new System.Drawing.Size(332, 453);
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
@@ -188,25 +199,28 @@
             this.lblErrorResponse.AutoSize = true;
             this.lblErrorResponse.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.lblErrorResponse.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblErrorResponse.Location = new System.Drawing.Point(635, 266);
+            this.lblErrorResponse.Location = new System.Drawing.Point(508, 213);
+            this.lblErrorResponse.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblErrorResponse.Name = "lblErrorResponse";
-            this.lblErrorResponse.Size = new System.Drawing.Size(0, 25);
+            this.lblErrorResponse.Size = new System.Drawing.Size(0, 20);
             this.lblErrorResponse.TabIndex = 21;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel2.Location = new System.Drawing.Point(635, 245);
+            this.panel2.Location = new System.Drawing.Point(508, 196);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(337, 10);
+            this.panel2.Size = new System.Drawing.Size(270, 8);
             this.panel2.TabIndex = 23;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel1.Location = new System.Drawing.Point(635, 181);
+            this.panel1.Location = new System.Drawing.Point(508, 145);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(337, 10);
+            this.panel1.Size = new System.Drawing.Size(270, 8);
             this.panel1.TabIndex = 24;
             // 
             // btnExit
@@ -214,9 +228,10 @@
             this.btnExit.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnExit.Location = new System.Drawing.Point(635, 352);
+            this.btnExit.Location = new System.Drawing.Point(508, 282);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(337, 43);
+            this.btnExit.Size = new System.Drawing.Size(270, 34);
             this.btnExit.TabIndex = 25;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -224,9 +239,10 @@
             // 
             // pgbLogin
             // 
-            this.pgbLogin.Location = new System.Drawing.Point(415, 542);
+            this.pgbLogin.Location = new System.Drawing.Point(332, 434);
+            this.pgbLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pgbLogin.Name = "pgbLogin";
-            this.pgbLogin.Size = new System.Drawing.Size(570, 10);
+            this.pgbLogin.Size = new System.Drawing.Size(456, 8);
             this.pgbLogin.Step = 5;
             this.pgbLogin.TabIndex = 26;
             // 
@@ -238,11 +254,11 @@
             // Login
             // 
             this.AcceptButton = this.btnLogin;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(988, 552);
+            this.ClientSize = new System.Drawing.Size(803, 442);
             this.Controls.Add(this.pgbLogin);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.panel1);
@@ -260,6 +276,7 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txbUsername);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Login";
             this.Padding = new System.Windows.Forms.Padding(1, 1, 0, 0);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

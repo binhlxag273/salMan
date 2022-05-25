@@ -15,10 +15,47 @@ namespace PresentationLayer
     public partial class StaffDetailTimeKeepingProcess : Form
     {
         private StaffInfo_DTO mStaffInfo;
+        private int mCountAccomplishDate;
+        private int mCountDateInMonth;
         private int mMonth;
         private int mYear;
+        private string mMonthYear;
+        private int mCountTargetDate;
 
-        List<KeyValuePair<string, bool>> mDates = new List<KeyValuePair<string, bool>>();
+        Dictionary<string, bool> mInitialDates = new Dictionary<string, bool>();
+        Dictionary<string, bool> mUpdateDates  = new Dictionary<string, bool>();
+
+        static int NumberOfParticularDaysInMonth(int year, int month, DayOfWeek dayOfWeek)
+        {
+            DateTime startDate = new DateTime(year, month, 1);
+            int totalDays = startDate.AddMonths(1).Subtract(startDate).Days;
+
+            int answer = Enumerable.Range(1, totalDays)
+                .Select(item => new DateTime(year, month, item))
+                .Where(date => date.DayOfWeek == dayOfWeek)
+                .Count();
+
+            return answer;
+        }
+
+        private bool TryInsertSalaryProcessForCurrentMoth()
+        {
+            SalaryProcess_DTO salary_process = new SalaryProcess_DTO();
+            salary_process.staff_info_id = mStaffInfo.id;
+            salary_process.title = mMonthYear;
+            salary_process.is_paid = false;
+            salary_process.payment_date = "";
+            salary_process.salary = mStaffInfo.basic_salary_amount + mStaffInfo.basic_salary_amount + mStaffInfo.insurance_amount;
+            KeyValuePair<bool, string> result = SalaryProcess_BUS.InsertIfNotExist(salary_process, "title", mMonthYear);
+            if (!result.Key)
+            {
+                MessageBox.Show("Lỗi kết nối, xin thử lại");
+                UtilityLayer.Logging.Instance().LogInfo("Error: [StaffDetailSalaryProcess.cs]:" + result.Value);
+                return false;
+            }
+
+            return true;
+        }
 
         private TableLayoutPanel GenPanel(string date, bool status)
         {
@@ -41,7 +78,22 @@ namespace PresentationLayer
             checkbox.Checked = status;
             checkbox.Click += (object sender, EventArgs e) =>
             {
-                mDates.Add(new KeyValuePair<string, bool>(date, checkbox.Checked));
+                bool canAdd = false, outValue = false;
+                bool ok = mInitialDates.TryGetValue(date, out outValue);
+                if (!ok)
+                {
+                    canAdd = true;
+                }
+
+                if (checkbox.Checked != outValue)
+                {
+                    canAdd = true;
+                }
+
+                if (canAdd)
+                {
+                    mUpdateDates[date] = checkbox.Checked;
+                }
             };
 
             layoutPanel.Controls.Add(lblDate, 0, 1);
@@ -65,6 +117,7 @@ namespace PresentationLayer
             tblTimeKeeping.Controls.Clear();
             string date_string = "";
             string month_year = dtTimekeeping.Value.ToString("MM/yyyy");
+            mMonthYear = month_year;
             KeyValuePair<bool, List<TimekeepingProcess_DTO>> list_timekeeping = TimekeepingProcess_BUS.GetMany(
                 "select * from TimekeepingProcess where timekeeping_date like @timekeepingdate order by timekeeping_date ASC",
                 sqlCommand => {
@@ -77,6 +130,9 @@ namespace PresentationLayer
                 MessageBox.Show("Lỗi kết nối");
                 return;
             }
+
+            mCountAccomplishDate = list_timekeeping.Value.Count;
+            mCountDateInMonth = datesInMonth;
 
             for (int i = 0; i < rows; i++)
             {
@@ -92,6 +148,8 @@ namespace PresentationLayer
                             {
                                 tblTimeKeeping.Controls.Add(GenPanel(date_string, obj.timekeeping_status), j, i);
                                 found = true;
+
+                                mInitialDates.Add(obj.timekeeping_date, obj.timekeeping_status);
                                 break;
                             }
                         }
@@ -116,6 +174,10 @@ namespace PresentationLayer
             dtTimekeeping.Format = DateTimePickerFormat.Custom;
             dtTimekeeping.CustomFormat = "MM/yyyy";
             DrawTimeKeepingTable();
+            int numOfSunday = NumberOfParticularDaysInMonth(this.mYear, this.mMonth, DayOfWeek.Sunday);
+            int numOfSaturday = NumberOfParticularDaysInMonth(this.mYear, this.mMonth, DayOfWeek.Saturday);
+
+            mCountTargetDate = mCountDateInMonth - (numOfSaturday + numOfSunday);
         }
 
         private void dtTimekeeping_ValueChanged(object sender, EventArgs e)
@@ -126,21 +188,46 @@ namespace PresentationLayer
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             List<TimekeepingProcess_DTO> list = new List<TimekeepingProcess_DTO>();
-            mDates.ForEach(date =>
-            {
-                list.Add(new TimekeepingProcess_DTO { staff_info_id = mStaffInfo.id, timekeeping_date = date.Key, timekeeping_status = date.Value, evaluated_by_id = Helper.Instance().gAccount.id });
-            });
+            int countAdd = 0;
+            int countMinus = 0;
 
-            KeyValuePair<bool, string> result = TimekeepingProcess_BUS.InsertMany(list);
-            if (!result.Key)
+            foreach (var item in mUpdateDates)
             {
-                MessageBox.Show("Cập nhật thất bại");
-                UtilityLayer.Logging.Instance().LogInfo("[Error][StaffTimekeepingProceess][btnUpdateClick]: " + result.Value);
-                return;
+                list.Add(new TimekeepingProcess_DTO { staff_info_id = mStaffInfo.id, timekeeping_date = item.Key, timekeeping_status = item.Value, evaluated_by_id = Helper.Instance().gAccount.id });
+                if (item.Value)
+                {
+                    countAdd += 1;
+                }
+                else
+                {
+                    countMinus -= 1;
+                }
+            }
+
+            if (list.Count > 0)
+            {
+                KeyValuePair<bool, string> result = TimekeepingProcess_BUS.UpsertMany(list);
+                if (!result.Key)
+                {
+                    MessageBox.Show("Cập nhật thất bại");
+                    UtilityLayer.Logging.Instance().LogInfo("[Error][StaffTimekeepingProceess][btnUpdateClick]: " + result.Value);
+                    return;
+                }
+            }
+
+            mCountAccomplishDate += countAdd + countMinus;
+            if (mCountAccomplishDate >= mCountTargetDate)
+            {
+                bool ok = TryInsertSalaryProcessForCurrentMoth();
+                if (!ok)
+                {
+                    MessageBox.Show("Cập nhật thất bại, xin thử lại");
+                    return;
+                }
             }
 
             MessageBox.Show("Cập nhật thành công");
-            mDates.Clear();
+            mUpdateDates.Clear();
         }
     }
 }

@@ -50,5 +50,10 @@ namespace BussinessLogicLayer
         {
             return SalaryProcess_DAO.GetMany(command, cb);
         }
+
+        public static KeyValuePair<bool, string> InsertIfNotExist(SalaryProcess_DTO detail, string key, string value)
+        {
+            return SalaryProcess_DAO.InsertIfNotExist(detail, key, value);
+        }
     }
 }

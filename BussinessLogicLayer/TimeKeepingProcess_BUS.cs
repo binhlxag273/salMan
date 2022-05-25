@@ -20,5 +20,10 @@ namespace BussinessLogicLayer
         {
             return TimekeepingProcess_DAO.GetMany(command, cb);
         }
+
+        public static KeyValuePair<bool, string> UpsertMany(List<TimekeepingProcess_DTO> timekeepings)
+        {
+            return TimekeepingProcess_DAO.UpsertMany(timekeepings);
+        }
     }
 }

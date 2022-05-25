@@ -15,7 +15,7 @@ namespace PresentationLayer
 {
     public partial class StaffAll : Form
     {
-        public struct SearchOptions
+        public class SearchOptions
         {
             public int mSearchTypeIndex = 0;
             public string mSearchFromDate = "";
@@ -36,7 +36,7 @@ namespace PresentationLayer
                 return;
             }
 
-            Helper.Instance().Bind<StaffInfo_Display_DTO>(dgStaffes, result.Value);
+            Helper.Instance().Bind(dgStaffes, result.Value);
             dgStaffes.Columns["id"].Visible = false;
             dgStaffes.Columns["department_id"].Visible = false;
             dgStaffes.Columns["position_id"].Visible = false;
@@ -190,13 +190,22 @@ namespace PresentationLayer
                 counts[row_idx] = true;
             }
 
-            List<int> list_id = new List<int>();
+            List<int> list_staff_id = new List<int>();
+            List<int> list_account_id = new List<int>();
             for (int i = 0; i < counts.Length; ++i)
             {
-                if (counts[i]) list_id.Add(Int32.Parse(dgStaffes.Rows[i].Cells["id"].Value.ToString()));
+                if (counts[i]) list_staff_id.Add(Int32.Parse(dgStaffes.Rows[i].Cells["id"].Value.ToString()));
+                if (counts[i]) list_account_id.Add(Int32.Parse(dgStaffes.Rows[i].Cells["account_id"].Value.ToString()));
             }
 
-            KeyValuePair<bool, string> result = StaffInfo_BUS.DeleteMany(list_id);
+            KeyValuePair<bool, string> result = StaffInfo_BUS.DeleteMany(list_staff_id);
+            if (result.Key == false)
+            {
+                MessageBox.Show(result.Value);
+                return;
+            }
+
+            result = Account_BUS.DeleteMany(list_account_id);
             if (result.Key == false)
             {
                 MessageBox.Show(result.Value);

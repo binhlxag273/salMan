@@ -32,7 +32,6 @@ namespace DataAccessLayer
                                 "Initial Catalog=" + initDb + ";" +
                                 "User id=" + username + ";" +
                                 "Password=" + password + ";";
-
             return @connectionString;
         }
 
