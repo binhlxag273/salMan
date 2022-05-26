@@ -13,22 +13,18 @@ using static DataTransferObject.DataTransferObject;
 
 namespace PresentationLayer
 {
-    public partial class frReportStaffSalaryTable : DevExpress.XtraEditors.XtraForm
+    public partial class frReportStaffSalaryProcess : DevExpress.XtraEditors.XtraForm
     {
         private StaffInfo_DTO mStaffInfo;
-        private SalaryProcess_DTO mSalaryProcess;
-
-        public frReportStaffSalaryTable(StaffInfo_DTO staffInfo, SalaryProcess_DTO salaryProcess)
+        public frReportStaffSalaryProcess(StaffInfo_DTO staffInfo)
         {
             InitializeComponent();
             mStaffInfo = staffInfo;
-            mSalaryProcess = salaryProcess;
         }
-
         public void PrintReport()
         {
-            ReportStaffSalaryTable report = new ReportStaffSalaryTable();
-            report.BindData(mStaffInfo, mSalaryProcess);
+            ReportStaffSalaryProcess report = new ReportStaffSalaryProcess();
+            report.BindData(mStaffInfo);
             docViewer.DocumentSource = report;
             report.CreateDocument();
         }

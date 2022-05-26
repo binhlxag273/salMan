@@ -199,3 +199,5 @@ F:\salMan\PresentationLayer\bin\Debug\net6.0-windows\System.Data.OleDb.dll
 F:\salMan\PresentationLayer\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
 F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.frReportStaffSalaryTable.resources
 F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.Components.ReportStaffSalaryTable.resources
+F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.frReportStaffSalaryProcess.resources
+F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.Components.ReportStaffSalaryProcess.resources

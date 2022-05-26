@@ -35,8 +35,8 @@
             this.btnEdit = new FontAwesome.Sharp.IconButton();
             this.dgSalaryProcess = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnReport = new System.Windows.Forms.Button();
             this.btnReportProcess = new System.Windows.Forms.Button();
+            this.btnReport = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -149,15 +149,6 @@
             this.panel3.Size = new System.Drawing.Size(1067, 32);
             this.panel3.TabIndex = 1;
             // 
-            // btnReport
-            // 
-            this.btnReport.Location = new System.Drawing.Point(0, 3);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Size = new System.Drawing.Size(219, 29);
-            this.btnReport.TabIndex = 2;
-            this.btnReport.Text = "BÁO CÁO LƯƠNG THÁNG";
-            this.btnReport.UseVisualStyleBackColor = true;
-            // 
             // btnReportProcess
             // 
             this.btnReportProcess.Location = new System.Drawing.Point(225, 3);
@@ -166,6 +157,17 @@
             this.btnReportProcess.TabIndex = 3;
             this.btnReportProcess.Text = "BÁO CÁO QUÁ TRÌNH";
             this.btnReportProcess.UseVisualStyleBackColor = true;
+            this.btnReportProcess.Click += new System.EventHandler(this.btnReportProcess_Click);
+            // 
+            // btnReport
+            // 
+            this.btnReport.Location = new System.Drawing.Point(0, 3);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(219, 29);
+            this.btnReport.TabIndex = 2;
+            this.btnReport.Text = "BÁO CÁO LƯƠNG THÁNG";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // StaffDetailSalaryProcess
             // 

@@ -78,6 +78,13 @@ namespace PresentationLayer
             }
         }
 
+        private void btnReportProcess_Click(object sender, EventArgs e)
+        {
+            frReportStaffSalaryProcess report = new frReportStaffSalaryProcess(mStaffinfo);
+            report.PrintReport();
+            report.ShowDialog();
+        }
+
         private void btnReport_Click(object sender, EventArgs e)
         {
             if (dgSalaryProcess.SelectedCells.Count == 0)
