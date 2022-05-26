@@ -52,6 +52,9 @@
     <Compile Update="ChildFormTimeKeepingProcess.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Components\ReportStaffSalaryTable.cs">
+      <SubType>XtraReport</SubType>
+    </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,7 +67,7 @@
     <Compile Update="StaffDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="StaffDetailReport.cs">
+    <Compile Update="Components\frReportStaffSalaryTable.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="StaffDetailSalaryProcess.cs">

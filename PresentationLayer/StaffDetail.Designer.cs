@@ -28,13 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabStaffDetail = new System.Windows.Forms.TabControl();
-            this.tabStaffTimekeeping = new System.Windows.Forms.TabPage();
-            this.tabStaffStatistic = new System.Windows.Forms.TabPage();
             this.tabStaffSalaryProcess = new System.Windows.Forms.TabPage();
-            this.tabStaffReport = new System.Windows.Forms.TabPage();
+            this.tabStaffTimekeeping = new System.Windows.Forms.TabPage();
+            this.tabStaffDetail = new System.Windows.Forms.TabControl();
             this.tabStaffDetail.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // tabStaffSalaryProcess
+            // 
+            this.tabStaffSalaryProcess.Location = new System.Drawing.Point(4, 29);
+            this.tabStaffSalaryProcess.Margin = new System.Windows.Forms.Padding(2);
+            this.tabStaffSalaryProcess.Name = "tabStaffSalaryProcess";
+            this.tabStaffSalaryProcess.Size = new System.Drawing.Size(936, 566);
+            this.tabStaffSalaryProcess.TabIndex = 2;
+            this.tabStaffSalaryProcess.Text = "Quá trình lương";
+            this.tabStaffSalaryProcess.UseVisualStyleBackColor = true;
+            // 
+            // tabStaffTimekeeping
+            // 
+            this.tabStaffTimekeeping.Location = new System.Drawing.Point(4, 29);
+            this.tabStaffTimekeeping.Margin = new System.Windows.Forms.Padding(2);
+            this.tabStaffTimekeeping.Name = "tabStaffTimekeeping";
+            this.tabStaffTimekeeping.Size = new System.Drawing.Size(936, 566);
+            this.tabStaffTimekeeping.TabIndex = 4;
+            this.tabStaffTimekeeping.Text = "Chấm công";
+            this.tabStaffTimekeeping.UseVisualStyleBackColor = true;
             // 
             // tabStaffDetail
             // 
@@ -42,59 +60,22 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabStaffDetail.Controls.Add(this.tabStaffTimekeeping);
-            this.tabStaffDetail.Controls.Add(this.tabStaffStatistic);
             this.tabStaffDetail.Controls.Add(this.tabStaffSalaryProcess);
-            this.tabStaffDetail.Controls.Add(this.tabStaffReport);
-            this.tabStaffDetail.Location = new System.Drawing.Point(12, 12);
+            this.tabStaffDetail.Location = new System.Drawing.Point(10, 10);
+            this.tabStaffDetail.Margin = new System.Windows.Forms.Padding(2);
             this.tabStaffDetail.Name = "tabStaffDetail";
             this.tabStaffDetail.SelectedIndex = 0;
-            this.tabStaffDetail.Size = new System.Drawing.Size(1180, 749);
+            this.tabStaffDetail.Size = new System.Drawing.Size(944, 599);
             this.tabStaffDetail.TabIndex = 4;
             this.tabStaffDetail.SelectedIndexChanged += new System.EventHandler(this.tabStaffDetail_SelectedIndexChanged);
             // 
-            // tabStaffTimekeeping
-            // 
-            this.tabStaffTimekeeping.Location = new System.Drawing.Point(4, 34);
-            this.tabStaffTimekeeping.Name = "tabStaffTimekeeping";
-            this.tabStaffTimekeeping.Size = new System.Drawing.Size(1172, 711);
-            this.tabStaffTimekeeping.TabIndex = 4;
-            this.tabStaffTimekeeping.Text = "Chấm công";
-            this.tabStaffTimekeeping.UseVisualStyleBackColor = true;
-            // 
-            // tabStaffStatistic
-            // 
-            this.tabStaffStatistic.Location = new System.Drawing.Point(4, 34);
-            this.tabStaffStatistic.Name = "tabStaffStatistic";
-            this.tabStaffStatistic.Padding = new System.Windows.Forms.Padding(3);
-            this.tabStaffStatistic.Size = new System.Drawing.Size(1172, 589);
-            this.tabStaffStatistic.TabIndex = 1;
-            this.tabStaffStatistic.Text = "Thống kê";
-            this.tabStaffStatistic.UseVisualStyleBackColor = true;
-            // 
-            // tabStaffSalaryProcess
-            // 
-            this.tabStaffSalaryProcess.Location = new System.Drawing.Point(4, 34);
-            this.tabStaffSalaryProcess.Name = "tabStaffSalaryProcess";
-            this.tabStaffSalaryProcess.Size = new System.Drawing.Size(1172, 589);
-            this.tabStaffSalaryProcess.TabIndex = 2;
-            this.tabStaffSalaryProcess.Text = "Quá trình lương";
-            this.tabStaffSalaryProcess.UseVisualStyleBackColor = true;
-            // 
-            // tabStaffReport
-            // 
-            this.tabStaffReport.Location = new System.Drawing.Point(4, 34);
-            this.tabStaffReport.Name = "tabStaffReport";
-            this.tabStaffReport.Size = new System.Drawing.Size(1172, 589);
-            this.tabStaffReport.TabIndex = 5;
-            this.tabStaffReport.Text = "Báo cáo";
-            this.tabStaffReport.UseVisualStyleBackColor = true;
-            // 
             // StaffDetail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1204, 773);
+            this.ClientSize = new System.Drawing.Size(963, 618);
             this.Controls.Add(this.tabStaffDetail);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "StaffDetail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -105,11 +86,8 @@
         }
 
         #endregion
-
-        private TabControl tabStaffDetail;
-        private TabPage tabStaffStatistic;
         private TabPage tabStaffSalaryProcess;
         private TabPage tabStaffTimekeeping;
-        private TabPage tabStaffReport;
+        private TabControl tabStaffDetail;
     }
 }

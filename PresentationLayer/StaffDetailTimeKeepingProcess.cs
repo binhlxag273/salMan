@@ -180,11 +180,6 @@ namespace PresentationLayer
             mCountTargetDate = mCountDateInMonth - (numOfSaturday + numOfSunday);
         }
 
-        private void dtTimekeeping_ValueChanged(object sender, EventArgs e)
-        {
-            DrawTimeKeepingTable();
-        }
-
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             List<TimekeepingProcess_DTO> list = new List<TimekeepingProcess_DTO>();
@@ -228,6 +223,11 @@ namespace PresentationLayer
 
             MessageBox.Show("Cập nhật thành công");
             mUpdateDates.Clear();
+        }
+
+        private void dtTimekeeping_ValueChanged(object sender, EventArgs e)
+        {
+            DrawTimeKeepingTable();
         }
     }
 }

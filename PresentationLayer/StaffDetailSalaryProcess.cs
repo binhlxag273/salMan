@@ -60,7 +60,6 @@ namespace PresentationLayer
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-
             if (dgSalaryProcess.SelectedCells.Count == 0)
             {
                 MessageBox.Show("Chưa có dữ liệu nào được chọn");
@@ -77,6 +76,21 @@ namespace PresentationLayer
                 LoadSalaryProcesses();
                 MessageBox.Show("Cập nhật thành công");
             }
+        }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            if (dgSalaryProcess.SelectedCells.Count == 0)
+            {
+                MessageBox.Show("Chưa có dữ liệu nào được chọn");
+                return;
+            }
+
+            int row_idx = dgSalaryProcess.SelectedCells[0].RowIndex;
+            SalaryProcess_DTO salaryProcess = (SalaryProcess_DTO)dgSalaryProcess.Rows[row_idx].DataBoundItem;
+            frReportStaffSalaryTable report = new frReportStaffSalaryTable(mStaffinfo, salaryProcess);
+            report.PrintReport();
+            report.ShowDialog();
         }
     }
 }

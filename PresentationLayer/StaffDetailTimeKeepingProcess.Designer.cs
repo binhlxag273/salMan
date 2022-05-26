@@ -44,26 +44,30 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.Controls.Add(this.label4);
             this.panel7.Controls.Add(this.dtTimekeeping);
-            this.panel7.Location = new System.Drawing.Point(12, 12);
+            this.panel7.Location = new System.Drawing.Point(10, 10);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1063, 60);
+            this.panel7.Size = new System.Drawing.Size(850, 48);
             this.panel7.TabIndex = 5;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 18);
+            this.label4.Location = new System.Drawing.Point(10, 14);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 25);
+            this.label4.Size = new System.Drawing.Size(71, 20);
             this.label4.TabIndex = 2;
             this.label4.Text = "Thời gian";
             // 
             // dtTimekeeping
             // 
-            this.dtTimekeeping.Location = new System.Drawing.Point(112, 17);
+            this.dtTimekeeping.Location = new System.Drawing.Point(90, 14);
+            this.dtTimekeeping.Margin = new System.Windows.Forms.Padding(2);
             this.dtTimekeeping.Name = "dtTimekeeping";
-            this.dtTimekeeping.Size = new System.Drawing.Size(222, 31);
+            this.dtTimekeeping.Size = new System.Drawing.Size(178, 27);
             this.dtTimekeeping.TabIndex = 0;
+            this.dtTimekeeping.ValueChanged += new System.EventHandler(this.dtTimekeeping_ValueChanged);
             // 
             // tblTimeKeeping
             // 
@@ -79,7 +83,8 @@
             this.tblTimeKeeping.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
             this.tblTimeKeeping.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
             this.tblTimeKeeping.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
-            this.tblTimeKeeping.Location = new System.Drawing.Point(12, 78);
+            this.tblTimeKeeping.Location = new System.Drawing.Point(10, 62);
+            this.tblTimeKeeping.Margin = new System.Windows.Forms.Padding(2);
             this.tblTimeKeeping.Name = "tblTimeKeeping";
             this.tblTimeKeeping.RowCount = 5;
             this.tblTimeKeeping.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -87,7 +92,7 @@
             this.tblTimeKeeping.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tblTimeKeeping.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tblTimeKeeping.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tblTimeKeeping.Size = new System.Drawing.Size(1063, 638);
+            this.tblTimeKeeping.Size = new System.Drawing.Size(850, 510);
             this.tblTimeKeeping.TabIndex = 4;
             // 
             // panel1
@@ -95,33 +100,36 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.btnUpdate);
-            this.panel1.Location = new System.Drawing.Point(12, 735);
+            this.panel1.Location = new System.Drawing.Point(10, 588);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1063, 40);
+            this.panel1.Size = new System.Drawing.Size(850, 32);
             this.panel1.TabIndex = 6;
             // 
             // btnUpdate
             // 
             this.btnUpdate.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnUpdate.Location = new System.Drawing.Point(951, 0);
+            this.btnUpdate.Location = new System.Drawing.Point(760, 0);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(112, 40);
+            this.btnUpdate.Size = new System.Drawing.Size(90, 32);
             this.btnUpdate.TabIndex = 0;
             this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // StaffTimeKeepingProcess
+            // StaffDetailTimeKeepingProcess
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 787);
+            this.ClientSize = new System.Drawing.Size(870, 630);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.tblTimeKeeping);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.Name = "StaffTimeKeepingProcess";
+            this.Name = "StaffDetailTimeKeepingProcess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chấm công";
             this.Load += new System.EventHandler(this.StaffTimeKeepingProcess_Load);

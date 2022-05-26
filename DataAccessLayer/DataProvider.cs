@@ -309,6 +309,32 @@ namespace DataAccessLayer
             return new KeyValuePair<bool, T>(true, obj);
         }
 
+        public KeyValuePair<bool, T> GetOne<T>(string command, Action<SqlCommand> cb) where T : new()
+        {
+            DataTable dt = GetDataTable(command, cb);
+            T obj = new T();
+
+            try
+            {
+                if (dt.Rows.Count != 1)
+                {
+                    UtilityLayer.Logging.Instance().LogInfo("Error: [DataProvider][GetOne<T>(comamnd, cb)]: get one but response many");
+                    return new KeyValuePair<bool, T>(false, obj);
+                }
+
+                foreach (PropertyInfo prop in obj.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance))
+                {
+                    prop.SetValue(obj, dt.Rows[0][prop.Name]);
+                }
+            }
+            catch (Exception ex)
+            {
+                UtilityLayer.Logging.Instance().LogInfo("Error: [DataProvider][GetMany]: " + ex.Message);
+            }
+
+            return new KeyValuePair<bool, T>(true, obj);
+        }
+
         public KeyValuePair<bool, List<T>> GetMany<T>(string table_name) where T : new()
         {
             string command_builder = "select * from " + table_name;

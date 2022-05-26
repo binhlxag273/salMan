@@ -15,8 +15,8 @@ namespace PresentationLayer
     public partial class CategoryDetailSalaryProcessUpsert : Form
     {
         private SalaryProcess_DTO mSalaryProcess;
-        private bool mOperationOk = false;
-        private bool mIsInsert = false;
+        public bool mOperationOk = false;
+        public bool mIsInsert = false;
         
         public CategoryDetailSalaryProcessUpsert(int staff_info_id)
         {

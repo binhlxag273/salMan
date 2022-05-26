@@ -25,35 +25,15 @@ namespace PresentationLayer
                 tabStaffTimekeeping.Controls.Add(timekeeping);
                 timekeeping.Show();
             }
-            else if (tabStaffDetail.SelectedTab == tabStaffDetail.TabPages["tabStaffStatistic"])
-            {
-                if (tabStaffStatistic.Controls.Count > 0) return;
-                StaffDetailStatistic statistic = new StaffDetailStatistic(mStaffInfo);
-                statistic.TopLevel = false;
-                statistic.Width = tabStaffTimekeeping.Width;
-                statistic.Height = tabStaffTimekeeping.Height;
-                tabStaffStatistic.Controls.Add(statistic);
-                statistic.Show();
-            }
             else if (tabStaffDetail.SelectedTab == tabStaffDetail.TabPages["tabStaffSalaryProcess"])
             {
-                if (tabStaffSalaryProcess.Controls.Count > 0) return;
+                if (tabStaffSalaryProcess.Controls.Count > 0) tabStaffSalaryProcess.Controls.Clear();
                 StaffDetailSalaryProcess salary = new StaffDetailSalaryProcess(mStaffInfo);
                 salary.TopLevel = false;
                 salary.Width = tabStaffTimekeeping.Width;
                 salary.Height = tabStaffTimekeeping.Height;
                 tabStaffSalaryProcess.Controls.Add(salary);
                 salary.Show();
-            }
-            else if (tabStaffDetail.SelectedTab == tabStaffDetail.TabPages["tabStaffReport"])
-            {
-                if (tabStaffReport.Controls.Count > 0) return;
-                StaffDetailReport report = new StaffDetailReport(mStaffInfo);
-                report.TopLevel = false;
-                report.Width = tabStaffTimekeeping.Width;
-                report.Height = tabStaffTimekeeping.Height;
-                tabStaffReport.Controls.Add(report);
-                report.Show();
             }
         }
 
