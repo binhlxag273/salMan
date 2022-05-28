@@ -15,6 +15,11 @@ namespace BussinessLogicLayer
             return CategoryDetail_DAO.DeleteMany(list_int);
         }
 
+        public static KeyValuePair<bool, string> DeleteManyByCategoryId(int id)
+        {
+            return CategoryDetail_DAO.DeleteManyById(id);
+        }
+
         public static KeyValuePair<bool, string> DeleteOne(int id)
         {
             return CategoryDetail_DAO.DeleteOne(id);

@@ -56,9 +56,10 @@
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.tableLayoutPanel1);
-            this.panel1.Location = new System.Drawing.Point(11, 9);
+            this.panel1.Location = new System.Drawing.Point(9, 7);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1229, 48);
+            this.panel1.Size = new System.Drawing.Size(983, 38);
             this.panel1.TabIndex = 5;
             // 
             // tableLayoutPanel2
@@ -73,11 +74,12 @@
             this.tableLayoutPanel2.Controls.Add(this.btnAdd, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnEdit, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnDelete, 2, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(7, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 0);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(215, 48);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(172, 38);
             this.tableLayoutPanel2.TabIndex = 5;
             // 
             // btnAdd
@@ -88,9 +90,10 @@
             this.btnAdd.IconColor = System.Drawing.Color.Black;
             this.btnAdd.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAdd.IconSize = 35;
-            this.btnAdd.Location = new System.Drawing.Point(3, 3);
+            this.btnAdd.Location = new System.Drawing.Point(2, 2);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(67, 42);
+            this.btnAdd.Size = new System.Drawing.Size(54, 34);
             this.btnAdd.TabIndex = 0;
             this.tooltip.SetToolTip(this.btnAdd, "Thêm danh mục");
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -104,9 +107,10 @@
             this.btnEdit.IconColor = System.Drawing.Color.Black;
             this.btnEdit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnEdit.IconSize = 35;
-            this.btnEdit.Location = new System.Drawing.Point(76, 3);
+            this.btnEdit.Location = new System.Drawing.Point(60, 2);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(67, 42);
+            this.btnEdit.Size = new System.Drawing.Size(54, 34);
             this.btnEdit.TabIndex = 1;
             this.tooltip.SetToolTip(this.btnEdit, "Sửa danh mục");
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -120,12 +124,14 @@
             this.btnDelete.IconColor = System.Drawing.Color.Black;
             this.btnDelete.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDelete.IconSize = 28;
-            this.btnDelete.Location = new System.Drawing.Point(149, 3);
+            this.btnDelete.Location = new System.Drawing.Point(118, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(63, 42);
+            this.btnDelete.Size = new System.Drawing.Size(52, 34);
             this.btnDelete.TabIndex = 2;
             this.tooltip.SetToolTip(this.btnDelete, "Xóa danh mục");
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -141,19 +147,21 @@
             this.tableLayoutPanel1.Controls.Add(this.btnBack, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnFront, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(923, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(738, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(306, 48);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(245, 38);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDown1.Location = new System.Drawing.Point(113, 3);
+            this.numericUpDown1.Location = new System.Drawing.Point(90, 2);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(79, 39);
+            this.numericUpDown1.Size = new System.Drawing.Size(63, 34);
             this.numericUpDown1.TabIndex = 5;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -161,9 +169,10 @@
             // 
             this.btnEnd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEnd.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnEnd.Location = new System.Drawing.Point(253, 3);
+            this.btnEnd.Location = new System.Drawing.Point(203, 2);
+            this.btnEnd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEnd.Name = "btnEnd";
-            this.btnEnd.Size = new System.Drawing.Size(50, 42);
+            this.btnEnd.Size = new System.Drawing.Size(40, 34);
             this.btnEnd.TabIndex = 4;
             this.btnEnd.Text = ">>";
             this.tooltip.SetToolTip(this.btnEnd, "Trang cuối");
@@ -173,9 +182,10 @@
             // 
             this.btnNext.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNext.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnNext.Location = new System.Drawing.Point(198, 3);
+            this.btnNext.Location = new System.Drawing.Point(159, 2);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(49, 42);
+            this.btnNext.Size = new System.Drawing.Size(39, 34);
             this.btnNext.TabIndex = 3;
             this.btnNext.Text = ">";
             this.tooltip.SetToolTip(this.btnNext, "Trang tiếp");
@@ -185,9 +195,10 @@
             // 
             this.btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBack.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnBack.Location = new System.Drawing.Point(58, 3);
+            this.btnBack.Location = new System.Drawing.Point(47, 2);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(49, 42);
+            this.btnBack.Size = new System.Drawing.Size(39, 34);
             this.btnBack.TabIndex = 1;
             this.btnBack.Text = "<";
             this.tooltip.SetToolTip(this.btnBack, "Trang trước");
@@ -197,9 +208,10 @@
             // 
             this.btnFront.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFront.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnFront.Location = new System.Drawing.Point(3, 3);
+            this.btnFront.Location = new System.Drawing.Point(3, 2);
+            this.btnFront.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFront.Name = "btnFront";
-            this.btnFront.Size = new System.Drawing.Size(49, 42);
+            this.btnFront.Size = new System.Drawing.Size(39, 34);
             this.btnFront.TabIndex = 0;
             this.btnFront.Text = "<<";
             this.tooltip.SetToolTip(this.btnFront, "Đầu trang");
@@ -215,22 +227,24 @@
             this.dgCategoryDetails.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgCategoryDetails.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgCategoryDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgCategoryDetails.Location = new System.Drawing.Point(11, 63);
+            this.dgCategoryDetails.Location = new System.Drawing.Point(9, 50);
+            this.dgCategoryDetails.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgCategoryDetails.Name = "dgCategoryDetails";
             this.dgCategoryDetails.ReadOnly = true;
             this.dgCategoryDetails.RowHeadersWidth = 62;
             this.dgCategoryDetails.RowTemplate.Height = 33;
-            this.dgCategoryDetails.Size = new System.Drawing.Size(1229, 483);
+            this.dgCategoryDetails.Size = new System.Drawing.Size(983, 386);
             this.dgCategoryDetails.TabIndex = 4;
             this.dgCategoryDetails.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgCategoryDetails_CellDoubleClick);
             // 
             // CategoryDetailAll
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1252, 572);
+            this.ClientSize = new System.Drawing.Size(1002, 458);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgCategoryDetails);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CategoryDetailAll";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Danh mục chi tiết";

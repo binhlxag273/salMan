@@ -125,6 +125,12 @@ namespace PresentationLayer
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if (!Helper.Instance().AccountHas_Staff_AddPermission())
+            {
+                MessageBox.Show("Tài khoản chưa cấp quyền thực hiện tính năng này");
+                return;
+            }
+
             StaffUpsert staffUpsert = new StaffUpsert();
             staffUpsert.ShowDialog();
 
@@ -146,6 +152,13 @@ namespace PresentationLayer
 
             int row_idx = dgStaffes.SelectedCells[0].RowIndex;
             StaffInfo_DTO staff = (StaffInfo_DTO)dgStaffes.Rows[row_idx].DataBoundItem;
+
+            if (!Helper.Instance().AccountHas_Staff_EditPermission(staff))
+            {
+                MessageBox.Show("Tài chưa được cấp quyền cho tính năng này");
+                return;
+            }
+
             StaffUpsert staffUpsert = new StaffUpsert(staff);
             staffUpsert.ShowDialog();
 
@@ -162,6 +175,13 @@ namespace PresentationLayer
             if (row_idx < 0) return;
 
             StaffInfo_DTO staff = (StaffInfo_DTO)dgStaffes.Rows[row_idx].DataBoundItem;
+
+            if (!Helper.Instance().AccountHas_Staff_EditPermission(staff))
+            {
+                MessageBox.Show("Tài khoản chưa được cấp quyền cho tính năng này");
+                return;
+            }
+
             StaffUpsert staffUpsert = new StaffUpsert(staff);
             staffUpsert.ShowDialog();
 
@@ -194,6 +214,13 @@ namespace PresentationLayer
             List<int> list_account_id = new List<int>();
             for (int i = 0; i < counts.Length; ++i)
             {
+                StaffInfo_DTO staff = (StaffInfo_DTO)dgStaffes.Rows[i].DataBoundItem;
+                if (!Helper.Instance().AccountHas_Staff_DeletePermission(staff))
+                {
+                    MessageBox.Show("Tài khoản không có quyền thực hiện thao tác này");
+                    return;
+                }
+
                 if (counts[i]) list_staff_id.Add(Int32.Parse(dgStaffes.Rows[i].Cells["id"].Value.ToString()));
                 if (counts[i]) list_account_id.Add(Int32.Parse(dgStaffes.Rows[i].Cells["account_id"].Value.ToString()));
             }
@@ -240,7 +267,6 @@ namespace PresentationLayer
                 btnClearSearch.BackColor = Color.Red;
                 btnClearSearch.ForeColor = Color.White;
             }
-
         }
 
         private void btnSearchCaseSensitive_Click(object sender, EventArgs e)

@@ -41,16 +41,18 @@
             this.lblErrorMsg.AutoSize = true;
             this.lblErrorMsg.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.lblErrorMsg.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorMsg.Location = new System.Drawing.Point(54, 258);
+            this.lblErrorMsg.Location = new System.Drawing.Point(43, 206);
+            this.lblErrorMsg.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblErrorMsg.Name = "lblErrorMsg";
-            this.lblErrorMsg.Size = new System.Drawing.Size(0, 25);
+            this.lblErrorMsg.Size = new System.Drawing.Size(0, 20);
             this.lblErrorMsg.TabIndex = 12;
             // 
             // btnUpsert
             // 
-            this.btnUpsert.Location = new System.Drawing.Point(80, 295);
+            this.btnUpsert.Location = new System.Drawing.Point(64, 236);
+            this.btnUpsert.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpsert.Name = "btnUpsert";
-            this.btnUpsert.Size = new System.Drawing.Size(225, 34);
+            this.btnUpsert.Size = new System.Drawing.Size(180, 27);
             this.btnUpsert.TabIndex = 11;
             this.btnUpsert.Text = "Xác nhận";
             this.btnUpsert.UseVisualStyleBackColor = true;
@@ -59,46 +61,52 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 149);
+            this.label2.Location = new System.Drawing.Point(37, 119);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 25);
+            this.label2.Size = new System.Drawing.Size(101, 20);
             this.label2.TabIndex = 10;
             this.label2.Text = "Tên danh mục";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 42);
+            this.label1.Location = new System.Drawing.Point(37, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 25);
+            this.label1.Size = new System.Drawing.Size(99, 20);
             this.label1.TabIndex = 9;
             this.label1.Text = "Mã danh mục";
             // 
             // txbName
             // 
-            this.txbName.Location = new System.Drawing.Point(46, 188);
+            this.txbName.Location = new System.Drawing.Point(37, 150);
+            this.txbName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbName.Name = "txbName";
-            this.txbName.Size = new System.Drawing.Size(294, 31);
+            this.txbName.Size = new System.Drawing.Size(236, 27);
             this.txbName.TabIndex = 8;
             // 
             // txbCode
             // 
-            this.txbCode.Location = new System.Drawing.Point(46, 79);
+            this.txbCode.Location = new System.Drawing.Point(37, 63);
+            this.txbCode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbCode.Name = "txbCode";
-            this.txbCode.Size = new System.Drawing.Size(294, 31);
+            this.txbCode.Size = new System.Drawing.Size(236, 27);
             this.txbCode.TabIndex = 7;
             // 
             // CategoryDetailUpsert
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(386, 380);
+            this.ClientSize = new System.Drawing.Size(309, 304);
             this.Controls.Add(this.lblErrorMsg);
             this.Controls.Add(this.btnUpsert);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txbName);
             this.Controls.Add(this.txbCode);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
             this.Name = "CategoryDetailUpsert";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Danh mục";

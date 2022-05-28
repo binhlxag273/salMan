@@ -32,11 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnSetting = new FontAwesome.Sharp.IconButton();
             this.btnAccount = new FontAwesome.Sharp.IconButton();
             this.btnCategory = new FontAwesome.Sharp.IconButton();
-            this.btnSalaryProcess = new FontAwesome.Sharp.IconButton();
-            this.btnReport = new FontAwesome.Sharp.IconButton();
             this.btnStaff = new FontAwesome.Sharp.IconButton();
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.iconLogOut = new FontAwesome.Sharp.IconButton();
@@ -57,15 +54,13 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
             this.pnlMenu.Controls.Add(this.pictureBox1);
-            this.pnlMenu.Controls.Add(this.btnSetting);
             this.pnlMenu.Controls.Add(this.btnAccount);
             this.pnlMenu.Controls.Add(this.btnCategory);
-            this.pnlMenu.Controls.Add(this.btnSalaryProcess);
-            this.pnlMenu.Controls.Add(this.btnReport);
             this.pnlMenu.Controls.Add(this.btnStaff);
-            this.pnlMenu.Location = new System.Drawing.Point(3, 1);
+            this.pnlMenu.Location = new System.Drawing.Point(2, 1);
+            this.pnlMenu.Margin = new System.Windows.Forms.Padding(2);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(261, 658);
+            this.pnlMenu.Size = new System.Drawing.Size(209, 526);
             this.pnlMenu.TabIndex = 1;
             // 
             // pictureBox1
@@ -73,35 +68,13 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 18);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(197, 97);
+            this.pictureBox1.Size = new System.Drawing.Size(158, 78);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // btnSetting
-            // 
-            this.btnSetting.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSetting.FlatAppearance.BorderSize = 0;
-            this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSetting.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSetting.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSetting.IconChar = FontAwesome.Sharp.IconChar.Sith;
-            this.btnSetting.IconColor = System.Drawing.Color.White;
-            this.btnSetting.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnSetting.IconSize = 32;
-            this.btnSetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSetting.Location = new System.Drawing.Point(0, 456);
-            this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnSetting.Size = new System.Drawing.Size(256, 60);
-            this.btnSetting.TabIndex = 5;
-            this.btnSetting.Text = "Cài đặt";
-            this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSetting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSetting.UseVisualStyleBackColor = true;
-            this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
             // 
             // btnAccount
             // 
@@ -115,10 +88,11 @@
             this.btnAccount.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAccount.IconSize = 32;
             this.btnAccount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAccount.Location = new System.Drawing.Point(0, 390);
+            this.btnAccount.Location = new System.Drawing.Point(-2, 206);
+            this.btnAccount.Margin = new System.Windows.Forms.Padding(2);
             this.btnAccount.Name = "btnAccount";
-            this.btnAccount.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnAccount.Size = new System.Drawing.Size(256, 60);
+            this.btnAccount.Padding = new System.Windows.Forms.Padding(8, 0, 16, 0);
+            this.btnAccount.Size = new System.Drawing.Size(205, 48);
             this.btnAccount.TabIndex = 4;
             this.btnAccount.Text = "Tài khoản";
             this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -138,62 +112,17 @@
             this.btnCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCategory.IconSize = 32;
             this.btnCategory.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCategory.Location = new System.Drawing.Point(3, 324);
+            this.btnCategory.Location = new System.Drawing.Point(0, 153);
+            this.btnCategory.Margin = new System.Windows.Forms.Padding(2);
             this.btnCategory.Name = "btnCategory";
-            this.btnCategory.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnCategory.Size = new System.Drawing.Size(256, 60);
+            this.btnCategory.Padding = new System.Windows.Forms.Padding(8, 0, 16, 0);
+            this.btnCategory.Size = new System.Drawing.Size(205, 48);
             this.btnCategory.TabIndex = 3;
             this.btnCategory.Text = "Danh mục";
             this.btnCategory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCategory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCategory.UseVisualStyleBackColor = true;
             this.btnCategory.Click += new System.EventHandler(this.btnCategory_Click);
-            // 
-            // btnSalaryProcess
-            // 
-            this.btnSalaryProcess.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalaryProcess.FlatAppearance.BorderSize = 0;
-            this.btnSalaryProcess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalaryProcess.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSalaryProcess.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSalaryProcess.IconChar = FontAwesome.Sharp.IconChar.Magento;
-            this.btnSalaryProcess.IconColor = System.Drawing.Color.White;
-            this.btnSalaryProcess.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnSalaryProcess.IconSize = 32;
-            this.btnSalaryProcess.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalaryProcess.Location = new System.Drawing.Point(0, 192);
-            this.btnSalaryProcess.Name = "btnSalaryProcess";
-            this.btnSalaryProcess.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnSalaryProcess.Size = new System.Drawing.Size(256, 60);
-            this.btnSalaryProcess.TabIndex = 2;
-            this.btnSalaryProcess.Text = "Chấm công";
-            this.btnSalaryProcess.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalaryProcess.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSalaryProcess.UseVisualStyleBackColor = true;
-            this.btnSalaryProcess.Click += new System.EventHandler(this.btnSalaryProcess_Click);
-            // 
-            // btnReport
-            // 
-            this.btnReport.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReport.FlatAppearance.BorderSize = 0;
-            this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReport.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnReport.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnReport.IconChar = FontAwesome.Sharp.IconChar.Recycle;
-            this.btnReport.IconColor = System.Drawing.Color.White;
-            this.btnReport.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnReport.IconSize = 32;
-            this.btnReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReport.Location = new System.Drawing.Point(4, 258);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnReport.Size = new System.Drawing.Size(256, 60);
-            this.btnReport.TabIndex = 1;
-            this.btnReport.Text = "Báo cáo";
-            this.btnReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnReport.UseVisualStyleBackColor = true;
-            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // btnStaff
             // 
@@ -207,10 +136,11 @@
             this.btnStaff.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnStaff.IconSize = 32;
             this.btnStaff.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStaff.Location = new System.Drawing.Point(3, 126);
+            this.btnStaff.Location = new System.Drawing.Point(2, 101);
+            this.btnStaff.Margin = new System.Windows.Forms.Padding(2);
             this.btnStaff.Name = "btnStaff";
-            this.btnStaff.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnStaff.Size = new System.Drawing.Size(256, 60);
+            this.btnStaff.Padding = new System.Windows.Forms.Padding(8, 0, 16, 0);
+            this.btnStaff.Size = new System.Drawing.Size(205, 48);
             this.btnStaff.TabIndex = 0;
             this.btnStaff.Text = "Nhân viên";
             this.btnStaff.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -226,9 +156,10 @@
             this.pnlHeader.Controls.Add(this.iconLogOut);
             this.pnlHeader.Controls.Add(this.lblTitleChildrenForm);
             this.pnlHeader.Controls.Add(this.iconCurrentChildrenForm);
-            this.pnlHeader.Location = new System.Drawing.Point(266, 3);
+            this.pnlHeader.Location = new System.Drawing.Point(213, 2);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(2);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1000, 75);
+            this.pnlHeader.Size = new System.Drawing.Size(800, 60);
             this.pnlHeader.TabIndex = 2;
             // 
             // iconLogOut
@@ -243,9 +174,10 @@
             this.iconLogOut.IconColor = System.Drawing.Color.White;
             this.iconLogOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconLogOut.IconSize = 32;
-            this.iconLogOut.Location = new System.Drawing.Point(939, 0);
+            this.iconLogOut.Location = new System.Drawing.Point(751, 0);
+            this.iconLogOut.Margin = new System.Windows.Forms.Padding(2);
             this.iconLogOut.Name = "iconLogOut";
-            this.iconLogOut.Size = new System.Drawing.Size(61, 75);
+            this.iconLogOut.Size = new System.Drawing.Size(49, 60);
             this.iconLogOut.TabIndex = 7;
             this.iconLogOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconLogOut.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -257,9 +189,10 @@
             this.lblTitleChildrenForm.AutoSize = true;
             this.lblTitleChildrenForm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblTitleChildrenForm.ForeColor = System.Drawing.Color.Gainsboro;
-            this.lblTitleChildrenForm.Location = new System.Drawing.Point(69, 23);
+            this.lblTitleChildrenForm.Location = new System.Drawing.Point(55, 18);
+            this.lblTitleChildrenForm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitleChildrenForm.Name = "lblTitleChildrenForm";
-            this.lblTitleChildrenForm.Size = new System.Drawing.Size(119, 32);
+            this.lblTitleChildrenForm.Size = new System.Drawing.Size(96, 28);
             this.lblTitleChildrenForm.TabIndex = 1;
             this.lblTitleChildrenForm.Text = "Trang chủ";
             // 
@@ -270,10 +203,11 @@
             this.iconCurrentChildrenForm.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.iconCurrentChildrenForm.IconColor = System.Drawing.Color.MediumPurple;
             this.iconCurrentChildrenForm.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconCurrentChildrenForm.IconSize = 48;
-            this.iconCurrentChildrenForm.Location = new System.Drawing.Point(15, 17);
+            this.iconCurrentChildrenForm.IconSize = 38;
+            this.iconCurrentChildrenForm.Location = new System.Drawing.Point(12, 14);
+            this.iconCurrentChildrenForm.Margin = new System.Windows.Forms.Padding(2);
             this.iconCurrentChildrenForm.Name = "iconCurrentChildrenForm";
-            this.iconCurrentChildrenForm.Size = new System.Drawing.Size(48, 48);
+            this.iconCurrentChildrenForm.Size = new System.Drawing.Size(38, 38);
             this.iconCurrentChildrenForm.TabIndex = 0;
             this.iconCurrentChildrenForm.TabStop = false;
             // 
@@ -283,9 +217,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlFormContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.pnlFormContainer.Location = new System.Drawing.Point(265, 79);
+            this.pnlFormContainer.Location = new System.Drawing.Point(212, 63);
+            this.pnlFormContainer.Margin = new System.Windows.Forms.Padding(2);
             this.pnlFormContainer.Name = "pnlFormContainer";
-            this.pnlFormContainer.Size = new System.Drawing.Size(1001, 580);
+            this.pnlFormContainer.Size = new System.Drawing.Size(801, 464);
             this.pnlFormContainer.TabIndex = 3;
             // 
             // errorProvider1
@@ -294,14 +229,15 @@
             // 
             // MainWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1267, 660);
+            this.ClientSize = new System.Drawing.Size(1014, 528);
             this.Controls.Add(this.pnlFormContainer);
             this.Controls.Add(this.pnlHeader);
             this.Controls.Add(this.pnlMenu);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainWindow";
-            this.Text = "Form1";
+            this.Text = "Quản lý lương";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -318,9 +254,6 @@
         private FontAwesome.Sharp.IconButton btnStaff;
         private FontAwesome.Sharp.IconButton btnAccount;
         private FontAwesome.Sharp.IconButton btnCategory;
-        private FontAwesome.Sharp.IconButton btnSalaryProcess;
-        private FontAwesome.Sharp.IconButton btnReport;
-        private FontAwesome.Sharp.IconButton btnSetting;
         private Panel pnlHeader;
         private Panel pnlFormContainer;
         private PictureBox pictureBox1;

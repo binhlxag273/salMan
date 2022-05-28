@@ -36,6 +36,7 @@ namespace PresentationLayer
             txbDisplayName.Text = mCategory.name;
             chkIsSystem.Checked = mCategory.is_system_category;
             chkIsSystem.Enabled = false;
+            btnUpsert.Enabled = category.is_system_category ? true : false;
         }
 
         private void btnUpsert_Click(object sender, EventArgs e)

@@ -38,8 +38,22 @@ namespace PresentationLayer.Components
             DateTime startWorkingDate = DateTime.Parse(display.start_working_date);
             lbStartWorkingDate.Text = startWorkingDate.Day + "/" + startWorkingDate.Month + "/" + startWorkingDate.Year;
 
+            lbBasicSalary.Text = display.basic_salary_amount.ToString();
+            lbAllowance.Text = display.allowance_amount.ToString();
+            lbIssuance.Text = display.insurance_amount.ToString();
+
             DateTime today = DateTime.Now;
             lbDataTime.Text = "An Giang, ngày " + today.Day + ", tháng " + today.Month + ", năm " + today.Year;
+
+            KeyValuePair<bool, List<SalaryProcess_DTO>> list_ret = SalaryProcess_BUS.GetMany();
+            if (!list_ret.Key)
+            {
+                MessageBox.Show("Lỗi kết nối");
+                UtilityLayer.Logging.Instance().LogInfo("Error [ReportStaffSalaryProcess][BindData]: cannot get data");
+                return;
+            }
+
+            objectDataSource1.DataSource = list_ret.Value;
         }
     }
 }

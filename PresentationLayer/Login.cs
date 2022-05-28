@@ -13,9 +13,26 @@ namespace PresentationLayer
 {
     public partial class Login : Form
     {
+        private bool mInitOk { get; set; } = false;
+        public void DatabaseInit()
+        {
+            SetupDatabase setup = new SetupDatabase();
+            setup.ShowDialog();
+            mInitOk = setup.mIsOperationOk;
+
+            return;
+        }
+
         public Login()
         {
             InitializeComponent();
+            DatabaseInit();
+
+            if (mInitOk == false)
+            {
+                lblErrorResponse.Text = "Khởi tạo thất bại, xin thử lại sau";
+                return;
+            }
         }
 
         private void iconButton1_Click(object sender, EventArgs e)
@@ -25,6 +42,18 @@ namespace PresentationLayer
 
         private async void btnLogin_Click(object sender, EventArgs e)
         {
+
+            lblErrorResponse.Text = "";
+            if (mInitOk == false)
+            {
+                DatabaseInit();
+                if (mInitOk == false)
+                {
+                    lblErrorResponse.Text = "Khởi tạo thất bại, xin thử lại sau";
+                    return;
+                }
+            }
+
             string username = txbUsername.Text;
             string password = txtPassword.Text;
 
@@ -61,8 +90,20 @@ namespace PresentationLayer
                 return;
             }
 
+            if (!result.Value.validated)
+            {
+                AccountPasswordChange passwordChange = new AccountPasswordChange(result.Value);
+                passwordChange.ShowDialog();
+                if (!passwordChange.mIsOperationOk)
+                {
+                    MessageBox.Show("Đổi mật khẩu lần đầu thất bại, xin thử lại");
+                    return;
+                }
+            }
+
             Helper.Instance().gIsLogin = true;
             Helper.Instance().gAccount = result.Value;
+            Helper.Instance().TrySetStaffInfo();
 
             string verify_password = Helper.Instance().gAccount.password;
             bool verified = BCrypt.Net.BCrypt.Verify(password, verify_password);

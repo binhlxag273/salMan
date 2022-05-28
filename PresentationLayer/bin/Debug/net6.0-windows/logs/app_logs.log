@@ -1,128 +1,56 @@
-2022-05-26 00:11:00,964  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:11:01,009  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:11:10,886  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near 'values'.
-2022-05-26 00:12:08,027  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:12:08,065  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:12:16,464  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near 'values'.
-2022-05-26 00:14:06,555  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:14:06,598  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:15:26,504  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:15:26,539  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:16:49,977  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:16:50,016  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:17:34,216  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:17:34,267  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:18:29,214  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:18:29,255  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:19:40,589  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:19:40,632  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:19:48,603  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 00:20:37,727  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:20:37,764  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:21:08,687  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into TimekeepingProcess values (@staff_info_id0,@timekeeping_date0,@timekeeping_status0,@evaluated_by_id0),(@staff_info_id1,@timekeeping_date1,@timekeeping_status1,@evaluated_by_id1),(@staff_info_id2,@timekeeping_date2,@timekeeping_status2,@evaluated_by_id2),(@staff_info_id3,@timekeeping_date3,@timekeeping_status3,@evaluated_by_id3),(@staff_info_id4,@timekeeping_date4,@timekeeping_status4,@evaluated_by_id4),(@staff_info_id5,@timekeeping_date5,@timekeeping_status5,@evaluated_by_id5),(@staff_info_id6,@timekeeping_date6,@timekeeping_status6,@evaluated_by_id6),(@staff_info_id7,@timekeeping_date7,@timekeeping_status7,@evaluated_by_id7),(@staff_info_id8,@timekeeping_date8,@timekeeping_status8,@evaluated_by_id8)
-2022-05-26 00:21:08,702  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 00:21:20,990  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into TimekeepingProcess values (@staff_info_id0,@timekeeping_date0,@timekeeping_status0,@evaluated_by_id0),(@staff_info_id1,@timekeeping_date1,@timekeeping_status1,@evaluated_by_id1),(@staff_info_id2,@timekeeping_date2,@timekeeping_status2,@evaluated_by_id2),(@staff_info_id3,@timekeeping_date3,@timekeeping_status3,@evaluated_by_id3)
-2022-05-26 00:21:20,992  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 00:44:13,582  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:44:13,625  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:44:28,140  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near '@staff_info_id_1'.
-2022-05-26 00:45:04,799  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:45:04,842  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:45:47,256  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near '@staff_info_id_1'.
-2022-05-26 00:46:07,561  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:46:07,604  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:46:27,343  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: Incorrect syntax near ','.
-2022-05-26 00:46:51,283  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:46:51,325  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:47:05,972  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2),(@staff_info_id_3,@timekeeping_date_3,@timekeeping_status_3,@evaluated_by_id_3)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 00:47:05,991  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 00:47:21,096  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: The MERGE statement attempted to UPDATE or DELETE the same row more than once. This happens when a target row matches more than one source row. A MERGE statement cannot UPDATE/DELETE the same row of the target table multiple times. Refine the ON clause to ensure a target row matches at most one source row, or use the GROUP BY clause to group the source rows.
-2022-05-26 00:47:35,540  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [Error][StaffTimekeepingProceess][btnUpdateClick]: The MERGE statement attempted to UPDATE or DELETE the same row more than once. This happens when a target row matches more than one source row. A MERGE statement cannot UPDATE/DELETE the same row of the target table multiple times. Refine the ON clause to ensure a target row matches at most one source row, or use the GROUP BY clause to group the source rows.
-2022-05-26 00:53:11,345  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:53:11,391  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:53:22,275  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 00:53:22,283  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 00:55:39,513  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:55:39,558  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:56:48,169  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 00:56:48,206  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 00:57:06,200  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-26 01:06:13,409  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 01:06:13,444  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 01:06:27,389  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2),(@staff_info_id_3,@timekeeping_date_3,@timekeeping_status_3,@evaluated_by_id_3)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 01:06:27,398  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 01:06:36,246  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 01:06:36,249  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 01:06:45,508  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 01:08:28,032  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 01:08:28,078  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 01:11:28,589  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 01:11:28,631  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 01:12:10,922  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 01:12:10,963  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 01:26:07,350  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 01:26:07,396  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 01:28:21,553  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 01:28:21,598  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 01:38:54,751  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 01:38:54,797  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 01:39:23,881  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update SalaryProcess set staff_info_id=@staff_info_id,title=@title,is_paid=@is_paid,payment_date=@payment_date,salary=@salary where id=@id
-2022-05-26 01:46:56,009  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 01:46:56,055  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 01:47:12,469  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 01:47:27,205  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2),(@staff_info_id_3,@timekeeping_date_3,@timekeeping_status_3,@evaluated_by_id_3),(@staff_info_id_4,@timekeeping_date_4,@timekeeping_status_4,@evaluated_by_id_4),(@staff_info_id_5,@timekeeping_date_5,@timekeeping_status_5,@evaluated_by_id_5),(@staff_info_id_6,@timekeeping_date_6,@timekeeping_status_6,@evaluated_by_id_6),(@staff_info_id_7,@timekeeping_date_7,@timekeeping_status_7,@evaluated_by_id_7),(@staff_info_id_8,@timekeeping_date_8,@timekeeping_status_8,@evaluated_by_id_8),(@staff_info_id_9,@timekeeping_date_9,@timekeeping_status_9,@evaluated_by_id_9),(@staff_info_id_10,@timekeeping_date_10,@timekeeping_status_10,@evaluated_by_id_10)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 01:47:43,075  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2),(@staff_info_id_3,@timekeeping_date_3,@timekeeping_status_3,@evaluated_by_id_3),(@staff_info_id_4,@timekeeping_date_4,@timekeeping_status_4,@evaluated_by_id_4),(@staff_info_id_5,@timekeeping_date_5,@timekeeping_status_5,@evaluated_by_id_5),(@staff_info_id_6,@timekeeping_date_6,@timekeeping_status_6,@evaluated_by_id_6),(@staff_info_id_7,@timekeeping_date_7,@timekeeping_status_7,@evaluated_by_id_7),(@staff_info_id_8,@timekeeping_date_8,@timekeeping_status_8,@evaluated_by_id_8),(@staff_info_id_9,@timekeeping_date_9,@timekeeping_status_9,@evaluated_by_id_9)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 01:47:43,084  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 01:47:52,963  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 01:47:52,965  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 12:30:07,441  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 12:30:07,657  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 12:30:50,498  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-26 12:30:50,544  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-26 12:56:48,606  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 12:56:48,745  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 13:30:44,796  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 13:30:44,865  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 13:35:41,983  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 13:35:42,030  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 14:10:58,993  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 14:10:59,073  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 15:07:42,633  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 15:07:42,719  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 15:24:50,405  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 15:24:50,447  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:01:43,627  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:01:43,769  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:01:57,216  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][GetMany]: Column 'account_ext' does not belong to table .
-2022-05-26 18:02:23,839  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][GetMany]: Column 'account_ext' does not belong to table .
-2022-05-26 18:07:29,009  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:07:29,058  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:07:57,096  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][GetMany]: Column 'account_ext' does not belong to table .
-2022-05-26 18:10:03,385  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:10:03,451  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:10:13,125  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][GetOne<T>(comamnd, cb)]: get one but response many
-2022-05-26 18:10:14,488  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [ReportStaffSalaryTable][BindData]: cannot get data
-2022-05-26 18:12:31,481  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:12:31,549  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:14:05,480  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:14:05,562  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:16:27,384  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:16:27,456  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:17:19,090  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:17:19,161  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:20:53,443  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:20:53,501  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 18:22:23,158  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 18:22:23,220  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 19:13:43,666  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 19:13:43,735  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 19:15:45,366  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 19:15:45,430  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 20:24:45,739  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 20:24:45,785  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 20:31:24,390  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 20:31:24,431  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 20:46:19,128  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 20:46:19,170  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-26 20:48:46,432  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-26 20:48:46,478  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 01:12:45,720  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 01:12:45,946  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 01:14:45,905  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Category where  id=@id_0 
+2022-05-28 01:14:45,928  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from CategoryDetail where category_id=@id
+2022-05-28 12:52:56,643  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 12:52:56,881  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 13:39:45,618  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 13:39:45,693  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:49:08,358  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 14:49:08,405  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:49:31,013  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:49:39,940  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-28 14:50:07,280  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:50:24,603  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:52:26,454  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 14:52:26,496  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:52:46,099  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:52:52,344  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:52:58,612  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:53:14,997  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:53:29,823  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:55:29,051  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 14:55:29,093  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:56:37,247  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:56:41,410  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:56:56,576  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:57:35,353  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-28 14:57:45,294  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:57:55,466  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:58:15,620  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 15:00:04,068  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:00:04,110  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:00:17,987  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 15:00:52,063  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:01:00,833  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: bombeo@gmail.com
+2022-05-28 15:01:38,402  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: bombeo@gmail.com
+2022-05-28 15:01:49,665  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 15:02:00,137  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-28 15:02:00,145  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-28 15:04:00,001  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:04:00,044  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 15:04:17,248  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 15:07:41,973  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:07:42,017  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 15:09:48,888  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:09:48,935  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:12:15,807  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:12:15,849  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:13:29,293  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:13:29,341  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:15:55,541  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:15:55,589  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:18:43,362  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:18:43,403  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:22:28,903  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:22:28,944  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com

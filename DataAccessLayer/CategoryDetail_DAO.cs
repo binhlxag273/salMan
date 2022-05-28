@@ -21,6 +21,16 @@ namespace DataAccessLayer
             return DataProvider.Instance().DeleteMany("CategoryDetail", list_int);
         }
 
+        public static KeyValuePair<bool, string> DeleteManyById(int id)
+        {
+            string command_builder = "delete from CategoryDetail where category_id=@id";
+
+            return DataProvider.Instance().CrudQuery(command_builder, sqlCommand =>
+            {
+                sqlCommand.Parameters.AddWithValue("@id", id);
+            });
+        }
+
         public static KeyValuePair<bool, List<CategoryDetail_DTO>> GetMany()
         {
             return DataProvider.Instance().GetMany<CategoryDetail_DTO>("CategoryDetail");

@@ -186,6 +186,12 @@ namespace PresentationLayer
             int countAdd = 0;
             int countMinus = 0;
 
+            if (!Helper.Instance().AccountHas_Staff_EvaluateTimekeepingProcess())
+            {
+                MessageBox.Show("Tài khoản không có quyền thực hiện tính năng này");
+                return;
+            }
+
             foreach (var item in mUpdateDates)
             {
                 list.Add(new TimekeepingProcess_DTO { staff_info_id = mStaffInfo.id, timekeeping_date = item.Key, timekeeping_status = item.Value, evaluated_by_id = Helper.Instance().gAccount.id });

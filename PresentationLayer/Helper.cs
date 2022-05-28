@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BussinessLogicLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -53,6 +54,30 @@ namespace PresentationLayer
         public bool gIsLogin { get; set; } = false;
 
         public Account_DTO gAccount { get; set; }
+        public StaffInfo_DTO gStaffInfo { get; set; }
+
+        public void TrySetStaffInfo()
+        {
+            if (this.gAccount == null)
+            {
+                return;
+            }
+
+            if (this.gAccount.account_type_id == 1) // Admin doesnt have staff info
+            {
+                return;
+            }
+
+            KeyValuePair<bool, StaffInfo_DTO> result = StaffInfo_BUS.GetOneByAccountId(this.gAccount.id);
+            if (!result.Key)
+            {
+                UtilityLayer.Logging.Instance().LogInfo("Error [Helper][TrySetStaffInfo]: cannot get staff by account id");
+                return;
+            }
+
+            this.gStaffInfo = result.Value;
+            return;
+        }
 
         public void Bind<T>(DataGridView grid, IList<T> data, bool autoGenerateColumns = true)
         {
@@ -134,5 +159,134 @@ namespace PresentationLayer
             }
         }
 
+        public bool AccountIsAdmin()
+        {
+            return this.gAccount.account_type_id == 1;
+        }
+
+        public bool AccountIsSupperUser()
+        {
+            if (this.AccountIsAdmin() || this.gAccount.group_type_id == 3)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool AccountHas_Account_ManagementPermission()
+        {
+            return AccountIsSupperUser();
+        }
+
+        public bool AccountHas_Account_ResetPasswordPermission(Account_DTO editAccount)
+        {
+            if (this.AccountHas_Account_ManagementPermission())
+            {
+                return true;
+            }
+
+            if (this.gAccount.id == editAccount.id)
+            {
+                return true;
+            }
+
+            if (this.gAccount.group_type_id >= editAccount.group_type_id)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public bool AccountHas_Account_ChangePasswordPermission(Account_DTO editAccount)
+        {
+            return this.AccountHas_Account_ManagementPermission();
+        }
+
+        public bool AccountHas_Account_EditPermission(Account_DTO editAccount)
+        {
+            return this.AccountHas_Account_ManagementPermission();
+        }
+
+        public bool AccountHas_Account_AddPermission()
+        {
+            return this.AccountHas_Account_ManagementPermission();
+        }
+
+        public bool AccountHas_Staff_ManagementPermission()
+        {
+            if (this.AccountIsSupperUser())
+            {
+                return true;
+            }
+
+            if (this.gAccount.group_type_id == 4)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool AccountHas_Staff_AddPermission()
+        {
+            if (this.AccountHas_Staff_ManagementPermission())
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool AccountHas_Staff_EditPermission(StaffInfo_DTO staffInfo)
+        {
+            if (this.AccountHas_Staff_ManagementPermission())
+            {
+                return true;
+            }
+
+            if (this.gStaffInfo.id == staffInfo.id)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool AccountHas_Staff_DeletePermission(StaffInfo_DTO staffInfo)
+        {
+            if (this.AccountIsAdmin())
+            {
+                return true;
+            }
+
+            if (this.gStaffInfo.id == staffInfo.id)
+            {
+                return false;
+            }
+
+            return AccountHas_Staff_ManagementPermission();
+        }
+
+        public bool AccountHas_Staff_EvaluateTimekeepingProcess()
+        {
+            if (this.AccountHas_Staff_ManagementPermission())
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool AccountHas_Category_Management()
+        {
+            if (this.AccountIsSupperUser())
+            {
+                return true;
+            }
+
+            return true;
+        }
     }
 }

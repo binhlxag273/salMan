@@ -22,7 +22,7 @@ namespace PresentationLayer
         {
             Account_DTO acc = new Account_DTO();
             acc.account_type_id = 2;
-            acc.group_type_id = 2;
+            acc.group_type_id = 5;
             acc.blocked = false;
             acc.account_name = mStaffInfo.email;
             acc.password = BCrypt.Net.BCrypt.HashPassword("00000000");

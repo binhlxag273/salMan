@@ -63,9 +63,19 @@ namespace BussinessLogicLayer
         {
             string command_builder = "select s.*, cat_1.name as department_ext, cat_2.name as position_ext, acc.account_name as account_ext from StaffInfo as s, CategoryDetail as cat_1, CategoryDetail as cat_2, Account as acc where s.id = @id and s.department_id = cat_1.id and s.position_id = cat_2.id and s.account_id = acc.id;";
 
-            return StaffInfo_DAO.GetOne(command_builder, sqlCommand =>
+            return StaffInfo_DAO.GetOneDisplay(command_builder, sqlCommand =>
             {
                 sqlCommand.Parameters.AddWithValue("@id", staffInfo.id);
+            });
+        }
+
+        public static KeyValuePair<bool, StaffInfo_DTO> GetOneByAccountId(int account_id)
+        {
+            string command_builder = "select * from StaffInfo where account_id=@account_id";
+
+            return StaffInfo_DAO.GetOne(command_builder, sqlCommand =>
+            {
+                sqlCommand.Parameters.AddWithValue("@account_id", account_id);
             });
         }
     }

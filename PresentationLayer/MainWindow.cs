@@ -109,32 +109,6 @@ namespace PresentationLayer
 
         }
 
-        private void btnSalaryProcess_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGPColors.color2);
-
-            ClearFormContainer();
-            ChildFormSalaryProcess childForm = new ChildFormSalaryProcess();
-            childForm.TopLevel = false;
-            childForm.Width = pnlFormContainer.Width;
-            childForm.Height = pnlFormContainer.Height;
-            pnlFormContainer.Controls.Add(childForm);
-            childForm.Show();
-        }
-
-        private void btnReport_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGPColors.color3);
-
-            ClearFormContainer();
-            ChildFormReport childForm = new ChildFormReport();
-            childForm.TopLevel = false;
-            childForm.Width = pnlFormContainer.Width;
-            childForm.Height = pnlFormContainer.Height;
-            pnlFormContainer.Controls.Add(childForm);
-            childForm.Show();
-        }
-
         private void btnCategory_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGPColors.color4);
@@ -154,19 +128,6 @@ namespace PresentationLayer
 
             ClearFormContainer();
             ChildFormAccount childForm = new ChildFormAccount();
-            childForm.TopLevel = false;
-            childForm.Width = pnlFormContainer.Width;
-            childForm.Height = pnlFormContainer.Height;
-            pnlFormContainer.Controls.Add(childForm);
-            childForm.Show();
-        }
-
-        private void btnSetting_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGPColors.color6);
-
-            ClearFormContainer();
-            ChildFormSetting childForm = new ChildFormSetting();
             childForm.TopLevel = false;
             childForm.Width = pnlFormContainer.Width;
             childForm.Height = pnlFormContainer.Height;

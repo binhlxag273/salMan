@@ -91,6 +91,7 @@
             this.Controls.Add(this.lblAmountSalary);
             this.Controls.Add(this.chkIsPaid);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "StaffDetailSalaryProcessUpdate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quá trình lương";

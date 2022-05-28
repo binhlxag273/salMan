@@ -37,19 +37,7 @@
     <Compile Update="ChildFormCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ChildFormReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ChildFormSalaryProcess.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ChildFormSetting.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="ChildFormStaff.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ChildFormTimeKeepingProcess.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Components\ReportStaffSalaryProcess.cs">
@@ -80,9 +68,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="StaffDetailSalaryProcessUpdate.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="StaffDetailStatistic.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="StaffSearchAdvance.cs">

@@ -39,9 +39,10 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.Location = new System.Drawing.Point(347, 133);
+            this.btnConfirm.Location = new System.Drawing.Point(278, 106);
+            this.btnConfirm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(300, 34);
+            this.btnConfirm.Size = new System.Drawing.Size(240, 27);
             this.btnConfirm.TabIndex = 13;
             this.btnConfirm.Text = "Xác nhận";
             this.btnConfirm.UseVisualStyleBackColor = true;
@@ -49,42 +50,47 @@
             // 
             // dtToDate
             // 
-            this.dtToDate.Location = new System.Drawing.Point(668, 63);
+            this.dtToDate.Location = new System.Drawing.Point(534, 50);
+            this.dtToDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtToDate.Name = "dtToDate";
-            this.dtToDate.Size = new System.Drawing.Size(300, 31);
+            this.dtToDate.Size = new System.Drawing.Size(241, 27);
             this.dtToDate.TabIndex = 12;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(668, 23);
+            this.label3.Location = new System.Drawing.Point(534, 18);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(162, 25);
+            this.label3.Size = new System.Drawing.Size(134, 20);
             this.label3.TabIndex = 11;
             this.label3.Text = "Ngày công tác đến";
             // 
             // dtFromDate
             // 
-            this.dtFromDate.Location = new System.Drawing.Point(347, 63);
+            this.dtFromDate.Location = new System.Drawing.Point(278, 50);
+            this.dtFromDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtFromDate.Name = "dtFromDate";
-            this.dtFromDate.Size = new System.Drawing.Size(300, 31);
+            this.dtFromDate.Size = new System.Drawing.Size(241, 27);
             this.dtFromDate.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(347, 23);
+            this.label2.Location = new System.Drawing.Point(278, 18);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 25);
+            this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "Ngày công tác từ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 23);
+            this.label1.Location = new System.Drawing.Point(17, 18);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 25);
+            this.label1.Size = new System.Drawing.Size(104, 20);
             this.label1.TabIndex = 8;
             this.label1.Text = "Tìm kiếm theo";
             // 
@@ -97,16 +103,17 @@
             "Tên tài khoản",
             "Phòng ban",
             "Chức vụ"});
-            this.cbxSearchTarget.Location = new System.Drawing.Point(21, 61);
+            this.cbxSearchTarget.Location = new System.Drawing.Point(17, 49);
+            this.cbxSearchTarget.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbxSearchTarget.Name = "cbxSearchTarget";
-            this.cbxSearchTarget.Size = new System.Drawing.Size(300, 33);
+            this.cbxSearchTarget.Size = new System.Drawing.Size(241, 28);
             this.cbxSearchTarget.TabIndex = 7;
             // 
             // StaffSearchAdvance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(999, 200);
+            this.ClientSize = new System.Drawing.Size(799, 160);
             this.Controls.Add(this.btnConfirm);
             this.Controls.Add(this.dtToDate);
             this.Controls.Add(this.label3);
@@ -114,6 +121,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbxSearchTarget);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
             this.Name = "StaffSearchAdvance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tìm kiếm nâng cao";

@@ -50,9 +50,14 @@ namespace DataAccessLayer
             return DataProvider.Instance().GetMany<StaffInfo_Display_DTO>(command, cb);
         }
 
-        public static KeyValuePair<bool, StaffInfo_Display_DTO> GetOne(string command, Action<SqlCommand> cb)
+        public static KeyValuePair<bool, StaffInfo_Display_DTO> GetOneDisplay(string command, Action<SqlCommand> cb)
         {
             return DataProvider.Instance().GetOne<StaffInfo_Display_DTO>(command, cb);
+        }
+
+        public static KeyValuePair<bool, StaffInfo_DTO> GetOne(string command, Action<SqlCommand> cb)
+        {
+            return DataProvider.Instance().GetOne<StaffInfo_DTO>(command, cb);
         }
     }
 }

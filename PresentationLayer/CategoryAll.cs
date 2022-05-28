@@ -34,6 +34,12 @@ namespace PresentationLayer
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if (!Helper.Instance().AccountHas_Category_Management())
+            {
+                MessageBox.Show("Tài khoản của bạn không có quyền thực hiện tính năng nay");
+                return;
+            }
+
             CategoryUpsert category = new CategoryUpsert();
             category.ShowDialog();
 
@@ -51,6 +57,12 @@ namespace PresentationLayer
 
         private void dgCategories_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (!Helper.Instance().AccountHas_Category_Management())
+            {
+                MessageBox.Show("Tài khoản của bạn không có quyền thực hiện tính năng này");
+                return;
+            }
+
             int row_idx = e.RowIndex;
             if (row_idx < 0) return;
 
@@ -67,6 +79,12 @@ namespace PresentationLayer
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            if (!Helper.Instance().AccountHas_Category_Management())
+            {
+                MessageBox.Show("Tài khoản của bạn không có quyền thực hiện tính năng này");
+                return;
+            }
+
             if (dgCategories.SelectedCells.Count == 0)
             {
                 MessageBox.Show("Chưa có dữ liệu nào được chọn");
@@ -87,6 +105,11 @@ namespace PresentationLayer
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            if (!Helper.Instance().AccountHas_Category_Management())
+            {
+                MessageBox.Show("Tài khoản của bạn không có quyền thực hiện tính năng này.");
+                return;
+            }
             DialogResult dlr = MessageBox.Show("Các dữ liệu liên quan đều sẽ bị xóa, bạn có muốn xóa không?", "Chú ý", MessageBoxButtons.YesNo);
             if (dlr == DialogResult.No) return;
 
@@ -100,6 +123,12 @@ namespace PresentationLayer
             for (int i = 0; i < dgCategories.SelectedCells.Count; ++i)
             {
                 int row_idx = dgCategories.SelectedCells[i].RowIndex;
+                Category_DTO category = (Category_DTO)dgCategories.Rows[row_idx].DataBoundItem;
+                if (category.is_system_category)
+                {
+                    MessageBox.Show("Không thể xóa danh mục hệ thống");
+                    return;
+                }
                 counts[row_idx] = true;
             }
 
@@ -114,6 +143,15 @@ namespace PresentationLayer
             {
                 MessageBox.Show(result.Value);
                 return;
+            }
+
+            foreach(int id in list_id)
+            {
+                result = CategoryDetail_BUS.DeleteManyByCategoryId(id);
+                if (!result.Key)
+                {
+                    UtilityLayer.Logging.Instance().LogInfo("Error: [CategoryAll][btnDelete_Click]:" + result.Value);
+                }
             }
 
             LoadCategories();
