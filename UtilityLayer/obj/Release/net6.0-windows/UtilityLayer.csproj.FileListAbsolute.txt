@@ -1,0 +1,12 @@
+F:\salMan\UtilityLayer\bin\Release\net6.0-windows\UtilityLayer.deps.json
+F:\salMan\UtilityLayer\bin\Release\net6.0-windows\UtilityLayer.dll
+F:\salMan\UtilityLayer\bin\Release\net6.0-windows\UtilityLayer.pdb
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\UtilityLayer.csproj.AssemblyReference.cache
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\UtilityLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\UtilityLayer.AssemblyInfoInputs.cache
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\UtilityLayer.AssemblyInfo.cs
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\UtilityLayer.csproj.CoreCompileInputs.cache
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\UtilityLayer.dll
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\refint\UtilityLayer.dll
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\UtilityLayer.pdb
+F:\salMan\UtilityLayer\obj\Release\net6.0-windows\ref\UtilityLayer.dll

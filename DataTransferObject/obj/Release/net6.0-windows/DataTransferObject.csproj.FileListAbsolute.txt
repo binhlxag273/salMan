@@ -1,0 +1,15 @@
+F:\salMan\DataTransferObject\bin\Release\net6.0-windows\DataTransferObject.deps.json
+F:\salMan\DataTransferObject\bin\Release\net6.0-windows\DataTransferObject.dll
+F:\salMan\DataTransferObject\bin\Release\net6.0-windows\DataTransferObject.pdb
+F:\salMan\DataTransferObject\bin\Release\net6.0-windows\UtilityLayer.dll
+F:\salMan\DataTransferObject\bin\Release\net6.0-windows\UtilityLayer.pdb
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\DataTransferObject.csproj.AssemblyReference.cache
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\DataTransferObject.GeneratedMSBuildEditorConfig.editorconfig
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\DataTransferObject.AssemblyInfoInputs.cache
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\DataTransferObject.AssemblyInfo.cs
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\DataTransferObject.csproj.CoreCompileInputs.cache
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\DataTransferObject.csproj.CopyComplete
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\DataTransferObject.dll
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\refint\DataTransferObject.dll
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\DataTransferObject.pdb
+F:\salMan\DataTransferObject\obj\Release\net6.0-windows\ref\DataTransferObject.dll

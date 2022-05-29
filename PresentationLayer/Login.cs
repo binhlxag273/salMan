@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +20,57 @@ namespace PresentationLayer
         private bool mInitOk { get; set; } = false;
         public void DatabaseInit()
         {
+            string host = "";
+            string port = "";
+            string initDb = "";
+            string username = "";
+            string password = "";
+
+            if (File.Exists("Sinfo"))
+            {
+                StreamReader read = new StreamReader("config.txt");
+                host = (read.ReadLine().Split(':')[1]);
+                port = (read.ReadLine().Split(':')[1]);
+                initDb = (read.ReadLine().Split(':')[1]);
+                username = (read.ReadLine().Split(':')[1]);
+                password = (read.ReadLine().Split(':')[1]);
+            }
+            else
+            {
+                var section = ConfigurationManager.GetSection("SqlConnection") as NameValueCollection;
+
+                host = section["host"];
+                port = section["port"];
+                initDb = section["initDb"];
+                username = section["username"];
+                password = section["password"];
+            }
+
+            string connectionstring =   "Data Source=" + host + "," + port + ";" +
+                                        "Initial Catalog=" + initDb + ";" +
+                                        "User id=" + username + ";" +
+                                        "Password=" + password + ";";
+
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = connectionstring;
+            try
+            {
+                con.Open();
+                con.Close();
+                mInitOk = true;
+                return;
+            }
+            catch (Exception e)
+            {
+                UtilityLayer.Logging.Instance().LogInfo("Status [Login][DatabaseInit]: connection string failed" + e.Message);
+            }
+
+            DialogResult dialogResult = MessageBox.Show("Kết nối cơ sở dữ liệu thất bại, bạn có muốn thiết lập lại kết nối cơ sở dữ liệu?", "Lựa chọn", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.No)
+            {
+                return;
+            }
+
             SetupDatabase setup = new SetupDatabase();
             setup.ShowDialog();
             mInitOk = setup.mIsOperationOk;

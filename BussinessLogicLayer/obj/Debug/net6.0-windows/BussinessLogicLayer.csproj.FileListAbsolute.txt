@@ -36,3 +36,4 @@ F:\salMan\BussinessLogicLayer\obj\Debug\net6.0-windows\BussinessLogicLayer.dll
 F:\salMan\BussinessLogicLayer\obj\Debug\net6.0-windows\refint\BussinessLogicLayer.dll
 F:\salMan\BussinessLogicLayer\obj\Debug\net6.0-windows\BussinessLogicLayer.pdb
 F:\salMan\BussinessLogicLayer\obj\Debug\net6.0-windows\ref\BussinessLogicLayer.dll
+F:\salMan\BussinessLogicLayer\bin\Debug\net6.0-windows\DataAccessLayer.dll.config

@@ -1,56 +1,36 @@
-2022-05-28 01:12:45,720  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 01:12:45,946  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 01:14:45,905  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Category where  id=@id_0 
-2022-05-28 01:14:45,928  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from CategoryDetail where category_id=@id
-2022-05-28 12:52:56,643  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 12:52:56,881  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 13:39:45,618  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 13:39:45,693  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 14:49:08,358  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 14:49:08,405  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 14:49:31,013  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-28 14:49:39,940  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
-2022-05-28 14:50:07,280  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 14:50:24,603  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 14:52:26,454  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 14:52:26,496  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 14:52:46,099  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-28 14:52:52,344  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-28 14:52:58,612  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-28 14:53:14,997  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-28 14:53:29,823  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-28 14:55:29,051  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 14:55:29,093  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-28 14:56:37,247  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-28 14:56:41,410  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 14:56:56,576  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-28 14:57:35,353  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
-2022-05-28 14:57:45,294  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 14:57:55,466  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-28 14:58:15,620  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-28 15:00:04,068  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:00:04,110  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 15:00:17,987  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-28 15:00:52,063  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 15:01:00,833  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: bombeo@gmail.com
-2022-05-28 15:01:38,402  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: bombeo@gmail.com
-2022-05-28 15:01:49,665  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-28 15:02:00,137  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
-2022-05-28 15:02:00,145  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
-2022-05-28 15:04:00,001  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:04:00,044  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-28 15:04:17,248  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
-2022-05-28 15:07:41,973  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:07:42,017  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
-2022-05-28 15:09:48,888  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:09:48,935  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 15:12:15,807  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:12:15,849  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 15:13:29,293  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:13:29,341  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 15:15:55,541  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:15:55,589  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 15:18:43,362  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:18:43,403  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
-2022-05-28 15:22:28,903  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
-2022-05-28 15:22:28,944  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 07:49:03,809  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 07:49:03,915  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 07:49:16,911  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from StaffInfo where  id=@id_0 
+2022-05-29 07:49:16,940  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-29 07:49:27,355  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from StaffInfo where  id=@id_0 
+2022-05-29 07:49:27,362  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-29 07:50:27,995  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-29 07:55:29,569  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 07:55:29,640  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 07:55:45,067  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-29 07:56:53,425  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-29 07:58:08,166  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 07:58:08,245  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 07:58:20,195  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0),(@staff_info_id_1,@timekeeping_date_1,@timekeeping_status_1,@evaluated_by_id_1),(@staff_info_id_2,@timekeeping_date_2,@timekeeping_status_2,@evaluated_by_id_2)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-29 07:58:30,197  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from StaffInfo where  id=@id_0 
+2022-05-29 07:58:30,205  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Account where  id=@id_0 
+2022-05-29 08:00:26,008  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 08:00:26,075  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 08:02:05,251  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 08:02:05,323  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 08:03:38,588  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 08:03:38,648  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 08:05:31,780  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 08:05:31,852  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 08:05:46,760  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-29 08:05:52,012  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 08:06:00,591  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-29 08:06:53,044  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-29 08:07:32,975  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 08:07:33,047  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 08:08:27,627  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 08:08:27,689  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-29 08:08:55,786  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-29 08:09:51,139  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-29 08:13:16,702  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-29 08:13:16,776  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com

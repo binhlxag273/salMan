@@ -196,3 +196,6 @@ F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.frReportS
 F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.Components.ReportStaffSalaryTable.resources
 F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.frReportStaffSalaryProcess.resources
 F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.Components.ReportStaffSalaryProcess.resources
+F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.SetupDatabase.resources
+F:\salMan\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.ChildFormSetting.resources
+F:\salMan\PresentationLayer\bin\Debug\net6.0-windows\DataAccessLayer.dll.config

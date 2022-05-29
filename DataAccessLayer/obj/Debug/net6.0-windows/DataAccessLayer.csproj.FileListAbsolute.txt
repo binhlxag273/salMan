@@ -32,3 +32,4 @@ F:\salMan\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.dll
 F:\salMan\DataAccessLayer\obj\Debug\net6.0-windows\refint\DataAccessLayer.dll
 F:\salMan\DataAccessLayer\obj\Debug\net6.0-windows\DataAccessLayer.pdb
 F:\salMan\DataAccessLayer\obj\Debug\net6.0-windows\ref\DataAccessLayer.dll
+F:\salMan\DataAccessLayer\bin\Debug\net6.0-windows\DataAccessLayer.dll.config

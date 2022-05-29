@@ -7,20 +7,43 @@ using log4net.Config;
 using System.Diagnostics;
 using System.Reflection;
 
+
 namespace DataAccessLayer
 {
-    class DataProvider
+    public class DataProvider
     {
+        private string host = "";
+        private string port = "";
+        private string initDb = "";
+        private string username = "";
+        private string password = "";
+
         private string _GetConnectionString()
         {
 
+
             string connectionString = "";
-            var section = ConfigurationManager.GetSection("SqlConnection") as NameValueCollection;
-            string host = section["host"];
-            string port = section["port"];
-            string initDb = section["initDb"];
-            string username = section["username"];
-            string password = section["password"];
+
+            if (File.Exists("Sinfo"))
+            {
+                MessageBox.Show("From config");
+                StreamReader read = new StreamReader("config.txt");
+                host = (read.ReadLine().Split(':')[1]);
+                port = (read.ReadLine().Split(':')[1]);
+                initDb = (read.ReadLine().Split(':')[1]);
+                username = (read.ReadLine().Split(':')[1]);
+                password = (read.ReadLine().Split(':')[1]);
+            }
+            else
+            {
+                var section = ConfigurationManager.GetSection("SqlConnection") as NameValueCollection;
+
+                host = section["host"];
+                port = section["port"];
+                initDb = section["initDb"];
+                username = section["username"];
+                password = section["password"];
+            }
 
             if (String.IsNullOrEmpty(host) || String.IsNullOrEmpty(port) || String.IsNullOrEmpty(initDb) || String.IsNullOrEmpty(username) || String.IsNullOrEmpty(password))
             {
@@ -32,6 +55,7 @@ namespace DataAccessLayer
                                 "Initial Catalog=" + initDb + ";" +
                                 "User id=" + username + ";" +
                                 "Password=" + password + ";";
+
             return @connectionString;
         }
 
@@ -51,6 +75,43 @@ namespace DataAccessLayer
             }
 
             return _instance;
+        }
+
+        public bool Backup(string foldLocation)
+        {
+            SqlConnection con = new SqlConnection(_connectionString);
+            string db = con.Database.ToString();
+            if (foldLocation  == string.Empty)
+            {
+                MessageBox.Show("Vui lòng điền địa chỉ đường dẫn");
+            }
+            else
+            {
+                string cmd = "BACKUP DATABASE [" + this.initDb + "] TO DISK='" + foldLocation + "\\" + "DatabaseHotel" + "-" + DateTime.Now.ToString("yyyy-MM-dd--HH-mm-ss") + ".bak'";
+                con.Open();
+                SqlCommand commanda = new SqlCommand(cmd, con);
+                commanda.ExecuteNonQuery();
+                MessageBox.Show("Lưu thành công");
+                con.Close();
+            }
+
+            return true;
+        }
+
+        public bool Restore(string fileLocation)
+        {
+            string command_builder = "ALTER TABLE [" + this.initDb + "] SET SINGLE_USER WITH ROLLBACK IMMEDIATE GO USE MASTER RESTORE DATABASE [" + this.initDb + "] FROM DISK='@fileLocation WITH REPLACE; GO ALTER DATABASE [" + this.initDb + "] SET MULTI_USER";
+            KeyValuePair<bool, string> result = CrudQuery(command_builder, sqlCommand =>
+            {
+                sqlCommand.Parameters.AddWithValue("@fileLocation", fileLocation);
+            });
+
+            if (!result.Key)
+            {
+                UtilityLayer.Logging.Instance().LogInfo("Error: [DataProvider][Backup]: " + result.Value);
+            }
+
+            return result.Key;
         }
 
         public DataTable GetDataTable(string command, Action<SqlCommand> cb)

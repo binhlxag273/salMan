@@ -41,6 +41,7 @@
             this.iconCurrentChildrenForm = new FontAwesome.Sharp.IconPictureBox();
             this.pnlFormContainer = new System.Windows.Forms.Panel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnSetting = new FontAwesome.Sharp.IconButton();
             this.pnlMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlHeader.SuspendLayout();
@@ -53,6 +54,7 @@
             this.pnlMenu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
+            this.pnlMenu.Controls.Add(this.btnSetting);
             this.pnlMenu.Controls.Add(this.pictureBox1);
             this.pnlMenu.Controls.Add(this.btnAccount);
             this.pnlMenu.Controls.Add(this.btnCategory);
@@ -227,6 +229,30 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // btnSetting
+            // 
+            this.btnSetting.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSetting.FlatAppearance.BorderSize = 0;
+            this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSetting.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSetting.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSetting.IconChar = FontAwesome.Sharp.IconChar.Seedling;
+            this.btnSetting.IconColor = System.Drawing.Color.White;
+            this.btnSetting.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnSetting.IconSize = 32;
+            this.btnSetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSetting.Location = new System.Drawing.Point(-2, 258);
+            this.btnSetting.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSetting.Name = "btnSetting";
+            this.btnSetting.Padding = new System.Windows.Forms.Padding(8, 0, 16, 0);
+            this.btnSetting.Size = new System.Drawing.Size(205, 48);
+            this.btnSetting.TabIndex = 7;
+            this.btnSetting.Text = "Cài đặt";
+            this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSetting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSetting.UseVisualStyleBackColor = true;
+            this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -261,5 +287,6 @@
         private Label lblTitleChildrenForm;
         private FontAwesome.Sharp.IconButton iconLogOut;
         private ErrorProvider errorProvider1;
+        private FontAwesome.Sharp.IconButton btnSetting;
     }
 }

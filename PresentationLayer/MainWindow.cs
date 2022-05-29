@@ -170,5 +170,18 @@ namespace PresentationLayer
                 this.Show();
             }
         }
+
+        private void btnSetting_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGPColors.color2);
+
+            ClearFormContainer();
+            ChildFormSetting childForm = new ChildFormSetting();
+            childForm.TopLevel = false;
+            childForm.Width = pnlFormContainer.Width;
+            childForm.Height = pnlFormContainer.Height;
+            pnlFormContainer.Controls.Add(childForm);
+            childForm.Show();
+        }
     }
 }

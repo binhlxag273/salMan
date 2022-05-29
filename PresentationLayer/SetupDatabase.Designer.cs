@@ -36,7 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnConfirm = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txbPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -105,14 +105,15 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "User id";
             // 
-            // button1
+            // btnConfirm
             // 
-            this.button1.Location = new System.Drawing.Point(80, 405);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(210, 29);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Xác nhận";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnConfirm.Location = new System.Drawing.Point(80, 405);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(210, 29);
+            this.btnConfirm.TabIndex = 8;
+            this.btnConfirm.Text = "Xác nhận";
+            this.btnConfirm.UseVisualStyleBackColor = true;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // label6
             // 
@@ -137,7 +138,7 @@
             this.ClientSize = new System.Drawing.Size(389, 465);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txbPassword);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnConfirm);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -166,7 +167,7 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private Button button1;
+        private Button btnConfirm;
         private Label label6;
         private TextBox txbPassword;
     }

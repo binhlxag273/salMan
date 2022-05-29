@@ -1,0 +1,119 @@
+2022-05-28 01:12:45,720  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 01:12:45,946  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 01:14:45,905  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from Category where  id=@id_0 
+2022-05-28 01:14:45,928  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: delete from CategoryDetail where category_id=@id
+2022-05-28 12:52:56,643  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 12:52:56,881  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 13:39:45,618  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 13:39:45,693  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:49:08,358  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 14:49:08,405  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:49:31,013  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:49:39,940  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update StaffInfo set code=@code,name=@name,birth_date=@birth_date,birth_place=@birth_place,email=@email,start_working_date=@start_working_date,working_status=@working_status,end_working_date=@end_working_date,basic_salary_amount=@basic_salary_amount,insurance_amount=@insurance_amount,allowance_amount=@allowance_amount,department_id=@department_id,position_id=@position_id,account_id=@account_id where id=@id
+2022-05-28 14:50:07,280  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:50:24,603  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:52:26,454  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 14:52:26,496  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:52:46,099  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:52:52,344  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:52:58,612  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:53:14,997  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:53:29,823  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:55:29,051  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 14:55:29,093  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:56:37,247  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:56:41,410  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:56:56,576  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 14:57:35,353  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: insert into StaffInfo values(@code,@name,@birth_date,@birth_place,@email,@start_working_date,@working_status,@end_working_date,@basic_salary_amount,@insurance_amount,@allowance_amount,@department_id,@position_id,@account_id)
+2022-05-28 14:57:45,294  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 14:57:55,466  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 14:58:15,620  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 15:00:04,068  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:00:04,110  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:00:17,987  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 15:00:52,063  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:01:00,833  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: bombeo@gmail.com
+2022-05-28 15:01:38,402  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: bombeo@gmail.com
+2022-05-28 15:01:49,665  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 15:02:00,137  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: merge TimekeepingProcess using (values(@staff_info_id_0,@timekeeping_date_0,@timekeeping_status_0,@evaluated_by_id_0)) src(staff_info_id, timekeeping_date, timekeeping_status, evaluated_by_id) on TimekeepingProcess.timekeeping_date = src.timekeeping_date when matched then update set TimekeepingProcess.timekeeping_status = src.timekeeping_status when not matched then insert values(src.staff_info_id, src.timekeeping_date, src.timekeeping_status, src.evaluated_by_id);
+2022-05-28 15:02:00,145  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: if not exists (select * from SalaryProcess where title=@title) begin insert into SalaryProcess values(@staff_info_id,@title,@is_paid,@payment_date,@salary) end
+2022-05-28 15:04:00,001  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:04:00,044  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 15:04:17,248  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - [CRUD]: update Account set account_name=@account_name,password=@password,account_type_id=@account_type_id,group_type_id=@group_type_id,validated=@validated,blocked=@blocked where id=@id
+2022-05-28 15:07:41,973  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:07:42,017  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: balebom@gmail.com
+2022-05-28 15:09:48,888  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:09:48,935  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:12:15,807  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:12:15,849  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:13:29,293  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:13:29,341  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:15:55,541  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:15:55,589  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:18:43,362  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:18:43,403  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 15:22:28,903  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 15:22:28,944  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 21:15:54,935  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:15:55,034  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:19:24,642  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:19:24,708  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:20:07,971  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:20:08,019  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:25:31,251  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:25:31,309  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:26:58,871  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:26:58,938  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:28:52,520  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:28:52,597  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:32:42,295  INFO [9] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:32:42,372  INFO [9] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:33:42,038  INFO [9] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:33:42,102  INFO [9] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:35:32,621  INFO [6] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:35:32,691  INFO [6] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:38:55,075  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:38:55,207  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:44:02,419  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:44:02,474  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:54:57,572  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:54:57,701  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 21:58:34,057  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 21:58:34,124  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 22:00:23,299  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 22:00:23,355  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Status [Login][DatabaseInit]: connection string failedA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+2022-05-28 22:01:21,184  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 22:02:24,079  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 22:02:24,149  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 22:48:20,532  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 22:48:20,585  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 22:48:56,392  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 22:48:56,438  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 22:49:11,437  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][Backup]: Incorrect syntax near '@foldLocation\database-2022-05-28--22-49-11.bak'.
+2022-05-28 22:52:21,420  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 22:52:21,471  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 22:52:33,596  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][Backup]: Incorrect syntax near 'C:\Users\HP\Desktop\database-2022-05-28--22-52-33.bak'.
+2022-05-28 22:55:11,577  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 22:55:11,622  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 22:55:24,419  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][Backup]: Incorrect syntax near 'C:\Users\HP\Desktop\database-2022-05-28--22-55-24.bak'.
+2022-05-28 22:56:03,700  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 22:56:03,739  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 22:56:11,973  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][Backup]: Incorrect syntax near 'C:\Users\HP\Desktop\database.bak'.
+2022-05-28 22:57:11,646  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][Backup]: Incorrect syntax near 'C:\Users\HP\Desktop\database.bak'.
+2022-05-28 22:58:58,817  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 22:58:58,864  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 22:59:08,361  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Error: [DataProvider][Backup]: Incorrect syntax near 'C:\Users\HP\Desktop\database.bak'.
+2022-05-28 23:04:50,433  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 23:04:50,485  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 23:08:57,755  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 23:08:57,798  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 23:10:29,820  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 23:10:29,861  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 23:16:24,469  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 23:16:24,522  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 23:17:22,488  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 23:17:22,534  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 23:22:34,862  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 23:22:34,911  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com
+2022-05-28 23:23:18,467  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.12] - Start Logging
+2022-05-28 23:23:18,514  INFO [1] [F:\salMan\UtilityLayer\Logging.cs.31] - Log auth [Login]: admin@gmail.com

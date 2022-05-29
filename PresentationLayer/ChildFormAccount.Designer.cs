@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.btnAccountAll = new FontAwesome.Sharp.IconButton();
             this.pnlAccountContainer = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -41,30 +40,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSize = true;
-            this.panel1.Controls.Add(this.iconButton3);
             this.panel1.Controls.Add(this.btnAccountAll);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(755, 66);
             this.panel1.TabIndex = 0;
-            // 
-            // iconButton3
-            // 
-            this.iconButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Affiliatetheme;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconButton3.Location = new System.Drawing.Point(137, 0);
-            this.iconButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(132, 63);
-            this.iconButton3.TabIndex = 2;
-            this.iconButton3.Text = "Tất cả tài khoản";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton3.UseVisualStyleBackColor = true;
             // 
             // btnAccountAll
             // 
@@ -74,7 +55,7 @@
             this.btnAccountAll.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAccountAll.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnAccountAll.Location = new System.Drawing.Point(0, 0);
-            this.btnAccountAll.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAccountAll.Margin = new System.Windows.Forms.Padding(2);
             this.btnAccountAll.Name = "btnAccountAll";
             this.btnAccountAll.Size = new System.Drawing.Size(132, 63);
             this.btnAccountAll.TabIndex = 1;
@@ -90,7 +71,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlAccountContainer.Location = new System.Drawing.Point(2, 66);
-            this.pnlAccountContainer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlAccountContainer.Margin = new System.Windows.Forms.Padding(2);
             this.pnlAccountContainer.Name = "pnlAccountContainer";
             this.pnlAccountContainer.Size = new System.Drawing.Size(754, 367);
             this.pnlAccountContainer.TabIndex = 1;
@@ -103,7 +84,7 @@
             this.Controls.Add(this.pnlAccountContainer);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ChildFormAccount";
             this.Text = "ChildFormAccount";
             this.Load += new System.EventHandler(this.ChildFormAccount_Load);
@@ -116,7 +97,6 @@
         #endregion
 
         private Panel panel1;
-        private FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton btnAccountAll;
         private Panel pnlAccountContainer;
     }

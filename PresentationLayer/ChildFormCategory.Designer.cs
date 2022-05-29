@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.btnCategoryExtend = new FontAwesome.Sharp.IconButton();
             this.btnCategory = new FontAwesome.Sharp.IconButton();
             this.pnlCategoryContainer = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -42,45 +40,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSize = true;
-            this.panel1.Controls.Add(this.iconButton1);
-            this.panel1.Controls.Add(this.btnCategoryExtend);
             this.panel1.Controls.Add(this.btnCategory);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(824, 85);
+            this.panel1.Size = new System.Drawing.Size(659, 68);
             this.panel1.TabIndex = 2;
-            // 
-            // iconButton1
-            // 
-            this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Affiliatetheme;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconButton1.Location = new System.Drawing.Point(342, 3);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(165, 79);
-            this.iconButton1.TabIndex = 3;
-            this.iconButton1.Text = "Quyền danh mục";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            // 
-            // btnCategoryExtend
-            // 
-            this.btnCategoryExtend.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCategoryExtend.IconChar = FontAwesome.Sharp.IconChar.Affiliatetheme;
-            this.btnCategoryExtend.IconColor = System.Drawing.Color.Black;
-            this.btnCategoryExtend.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCategoryExtend.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCategoryExtend.Location = new System.Drawing.Point(171, 3);
-            this.btnCategoryExtend.Name = "btnCategoryExtend";
-            this.btnCategoryExtend.Size = new System.Drawing.Size(165, 79);
-            this.btnCategoryExtend.TabIndex = 2;
-            this.btnCategoryExtend.Text = "Danh mục khác";
-            this.btnCategoryExtend.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCategoryExtend.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnCategoryExtend.UseVisualStyleBackColor = true;
             // 
             // btnCategory
             // 
@@ -89,9 +54,10 @@
             this.btnCategory.IconColor = System.Drawing.Color.Black;
             this.btnCategory.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCategory.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCategory.Location = new System.Drawing.Point(0, 3);
+            this.btnCategory.Location = new System.Drawing.Point(0, 2);
+            this.btnCategory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCategory.Name = "btnCategory";
-            this.btnCategory.Size = new System.Drawing.Size(165, 79);
+            this.btnCategory.Size = new System.Drawing.Size(132, 63);
             this.btnCategory.TabIndex = 1;
             this.btnCategory.Text = "Danh mục";
             this.btnCategory.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -104,19 +70,21 @@
             this.pnlCategoryContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlCategoryContainer.Location = new System.Drawing.Point(0, 86);
+            this.pnlCategoryContainer.Location = new System.Drawing.Point(0, 69);
+            this.pnlCategoryContainer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlCategoryContainer.Name = "pnlCategoryContainer";
-            this.pnlCategoryContainer.Size = new System.Drawing.Size(824, 377);
+            this.pnlCategoryContainer.Size = new System.Drawing.Size(659, 302);
             this.pnlCategoryContainer.TabIndex = 3;
             // 
             // ChildFormCategory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 465);
+            this.ClientSize = new System.Drawing.Size(659, 372);
             this.Controls.Add(this.pnlCategoryContainer);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ChildFormCategory";
             this.Text = "ChildFormCategory";
             this.Load += new System.EventHandler(this.ChildFormCategory_Load);
@@ -129,9 +97,7 @@
         #endregion
 
         private Panel panel1;
-        private FontAwesome.Sharp.IconButton btnCategoryExtend;
         private FontAwesome.Sharp.IconButton btnCategory;
         private Panel pnlCategoryContainer;
-        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }
